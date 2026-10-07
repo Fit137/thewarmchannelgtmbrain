@@ -1,0 +1,24 @@
+name: Brain checks
+
+# Runs the brain's own audit and claims lint on every push and pull request.
+# A red run means a rule was broken in the repository itself: an em dash, a
+# banned word, a client word in guest copy, a broken link, an unfilled
+# placeholder, or a portable control layer older than 90 days.
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Claims and vocabulary lint
+        run: python3 scripts/lint_claims.py .
+      - name: Brain audit
+        run: python3 scripts/audit_brain.py . --quiet

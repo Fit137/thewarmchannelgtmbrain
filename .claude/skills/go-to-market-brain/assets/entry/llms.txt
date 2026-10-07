@@ -1,0 +1,50 @@
+# {{PROJECT}} GTM
+
+> {{ONE_PARAGRAPH_SUMMARY}} This file indexes the repository for AI agents. Start with the master context, then the rules, then task-specific references.
+
+## Source of truth
+- [Master GTM context](context/{{PROJECT}}_GTM_Master_Context.md): full strategy, ICP, positioning, messaging, funnels, campaigns.
+
+## Control layer (read before writing)
+- [Writing rules](rules/writing-rules.md): house style, tone, banned words.
+- [Do not say](rules/do-not-say.md): forbidden claims and safe replacements.
+- [Feature status](rules/feature-status.md): shipped versus in build versus roadmap.
+- [Glossary](rules/glossary.md): canonical vocabulary.
+
+## Reference (load on demand)
+- [{{CHANNEL_ENGINE_TITLE}}](reference/{{CHANNEL_ENGINE_FILE}}): the strategy, archetypes, and method behind the primary channel.
+- [ICP and personas](reference/icp-personas.md)
+- [Objection handling](reference/objection-handling.md)
+- [Competitor battlecards](reference/competitor-battlecards.md)
+- [Competitive market analysis](reference/competitive-analysis.md)
+- [Customer journey funnels](reference/customer-journey.md)
+- [Feature matrix](reference/feature-matrix.md)
+- [Marketing campaigns and asset backlog](reference/marketing-campaigns.md)
+- [Positioning](reference/positioning.md)
+- [Positioning verdict](reference/positioning-verdict.md)
+- [Value proposition, {{AUDIENCE_1}}](reference/value-proposition-{{AUDIENCE_1_SLUG}}.md)
+- [Value proposition, {{AUDIENCE_2}}](reference/value-proposition-{{AUDIENCE_2_SLUG}}.md)
+
+## Templates
+{{TEMPLATE_LINES}}
+
+## Examples (match the voice)
+{{EXAMPLE_LINES}}
+
+## Finished assets (shipped copy, not templates)
+{{PAGE_LINES}}
+
+## Operations and state
+- [Copy bank](ops/copy-bank.md): approved language, safe to reuse verbatim.
+- [Decision log](ops/decisions.md): what was decided, when, and why.
+- [Signal log](ops/signal-log.md): raw market input and its disposition.
+- [Asset index](ops/asset-index.md): where sources and live surfaces live.
+- [QA checklist](ops/QA-checklist.md): the pre-ship gate.
+- [Review cadence](ops/review-cadence.md): who reviews what, how often.
+
+## Portability (doors for other tools)
+- [Adapters](adapters/): one pointer file per tool in use, each naming the same load order.
+- [Portable control layer](adapters/portable-control-layer.md): dated paste-in version for chat models with no file access. Regenerate whenever a ledger changes.
+
+## Snapshots
+- `snapshots/`: dated captures of funnel, channel, segment, and competitive state, each ending in what it changed.

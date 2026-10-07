@@ -1,0 +1,89 @@
+# The Warm Channel GTM
+
+> The Warm Channel is a pre-launch, done-for-you B2B lead generation channel built on in-person events: it plans the channel around a client's named account list, fills it with the people on that list, and works the conversations afterwards. It sells to six-figure-ACV vendors whose buyers will not answer cold outreach, and it invites senior guests who pay nothing. The proof set is empty and closed. This file indexes the repository for AI agents. Start with the router, then the control layer, then the task-specific reference.
+
+## Routers and operating view
+- [CLAUDE.md](CLAUDE.md): primary router for Claude Code. Wins if routers disagree.
+- [AGENTS.md](AGENTS.md): router for Codex, Cursor, Zed and other AGENTS.md readers.
+- [README.md](README.md): human orientation, what this is and how to maintain it.
+- [Command center](COMMAND-CENTER.md): state of the business, the road to first revenue, the decision queue, this week's plan, boards.
+
+## Source of truth
+- [Master GTM context](context/TheWarmChannel_GTM_Master_Context.md): the full strategy, both audiences, positioning, competition, journeys, channels, pricing state, constraints, cheatsheet.
+
+## Control layer (read before writing)
+- [Two vocabularies](rules/two-vocabularies.md): the governing sensitivity, client words never reach a guest.
+- [Glossary](rules/glossary.md): canonical vocabulary and the distinctions that must never blur.
+- [Service status](rules/service-status.md): READY, IN BUILD, BLOCKED, ROADMAP, EXCLUDED, per capability.
+- [Do not say](rules/do-not-say.md): forbidden claims, safe replacements, scoped superlatives, historical material.
+- [Evidence ledger](rules/evidence-ledger.md): the closed set of usable figures, with source, grade and permitted use.
+- [Writing rules](rules/writing-rules.md): mechanics, tone, the ear, claim and channel discipline, signature lines.
+- [QA checklist](ops/QA-checklist.md): the pre-ship gate.
+
+## Reference (load on demand)
+- [Positioning](reference/positioning.md): category, the four statements, which to use with whom.
+- [Positioning verdict](reference/positioning-verdict.md): the 2026-09-22 repositioning, what it invalidated, what it left open.
+- [Offer components](reference/offer-components.md): the six components, scores, the coverage read demand driver.
+- [Client ICP](reference/icp-client.md): five characteristics, the segment choice, qualify and disqualify.
+- [Buying committee](reference/buying-committee.md): user, manager, decision maker, the competence trap, the design partner.
+- [Guest ICP and cohort](reference/guest-icp-and-cohort.md): anchors first, the founding cohort of twenty, routes, never-do list.
+- [Competitive analysis](reference/competitive-analysis.md): comparison set, the axis, vectors, findings, method limits.
+- [Competitor battlecards](reference/competitor-battlecards.md): strength, gap, how we win, what not to say, per rival.
+- [Client value proposition](reference/value-proposition-client.md): promise, pillars, surviving and retired drills.
+- [Guest value proposition](reference/value-proposition-guest.md): guest pillars, approved and frozen lines, three surfaces.
+- [Client journey](reference/customer-journey-client.md): seven stages, KPIs, blockers, accelerators, capacity.
+- [Guest journey](reference/guest-journey.md): seven stages ending in the second acceptance.
+- [Objection handling](reference/objection-handling.md): client and guest objections, honest answers.
+- [Channel engine](reference/channel-engine.md): thesis, how channels feed each other, post archetypes, method, exclusions.
+- [Engagement playbook](reference/engagement-playbook.md): plan, fill, convert, with status on every step.
+- [Pricing and packaging](reference/pricing-and-packaging.md): value metric options, retired scopes, ROI anchors, settle order.
+- [Lead magnets](reference/lead-magnets.md): coverage read, calculator and its pre-ship fixes, scorecard rebuild.
+- [Founder credentials](reference/founder-credentials.md): permitted wording and gates.
+- [Compliance and consent](reference/compliance-and-consent.md): what is open and blocked, the counsel re-scope, the record.
+- [Guest economics](reference/guest-economics.md): what the guest gives and gets, the second-acceptance factors.
+- [Brand design system](reference/brand-design-system.md): Folio tokens, type, layout, components.
+- [Landing page structure](reference/landing-page-structure.md): the 14 blocks, what the build must not do.
+- [Research gaps](reference/research-gaps.md): the prioritised research backlog.
+
+## Templates
+- [Template index](templates/README.md): every template, its audience, and the templates that do not exist on purpose.
+- [Landing page](templates/landing-page.md), [LinkedIn post](templates/linkedin-post.md), [Prospect approach](templates/prospect-approach.md), [Discovery call](templates/discovery-call.md), [Coverage read](templates/coverage-read.md), [Scope document](templates/scope-document.md), [Composition report](templates/composition-report.md), [Observer invitation](templates/observer-invitation.md), [Partnership brief](templates/partnership-brief.md), [Guest messages](templates/guest-invitation.md), [Scorecard emails](templates/scorecard-email.md), [Decision brief](templates/decision-brief.md).
+
+## Examples (match the voice, all pending founder approval)
+- [LinkedIn category post](examples/linkedin-category-post.md): the Phase 9 live test, with its QA record.
+- [Landing hero](examples/landing-hero.md): the hero and big promise with claim fixes applied.
+- [Prospect approach](examples/prospect-approach.md): one researched message.
+- [Guest invitation](examples/guest-invitation.md): guest vocabulary, question first.
+- [Objection response](examples/objection-response.md): the guarantee objection, in writing.
+
+## Finished assets (drafts, not live)
+- [Landing page](pages/landing-page.md): the 2026-09-22 draft, verbatim, with the pre-ship claim review.
+- [ROI calculator](pages/roi-calculator.html): the calculator as built, pre-ship fixes in the lead magnets reference.
+
+## Prompts
+- [Common tasks](prompts/common-tasks.md): filled prompts for recurring jobs, and the jobs with no prompt on purpose.
+
+## Operations and state
+- [Decision log](ops/decisions.md): decided and open, D1 to D17, the amendment procedure.
+- [Signal log](ops/signal-log.md): raw market input, verbatim, with disposition.
+- [Copy bank](ops/copy-bank.md): approved, held, proposed and retired language.
+- [Asset index](ops/asset-index.md): the source manifest, live surfaces, adapters.
+- [Review cadence](ops/review-cadence.md): rituals, owners, staleness thresholds, authority.
+- [KPI dictionary](ops/kpi-dictionary.md): every metric defined once.
+- [Risk register](ops/risk-register.md): 22 risks with mitigations.
+- [Gap interview](ops/gap-interview.md): questions for the founder, with the defaults in force.
+- [Client pipeline](ops/pipeline.md): prospect tracker, no personal data.
+- [Guest cohort](ops/guest-cohort.md): founding cohort tracker, IDs only.
+
+## Snapshots
+- [2026-10-07 baseline](snapshots/2026-10-07-baseline.md): the pre-launch baseline and the snapshot format.
+
+## Portability (doors for other tools)
+- [Adapters](adapters/README.md): how the brain loads in other tools.
+- [Portable control layer](adapters/portable-control-layer.md): dated paste-in for chat models and tools with no file access. Regenerate on every ledger change.
+- [AGENTS block](adapters/AGENTS.block.md): pointer block for consuming repositories.
+
+## Sources and scripts
+- `sources/raw/warmchannelgtmbuild/`: every source document, verbatim, at commit 1aac76e.
+- `scripts/audit_brain.py`: structure, links, index, budgets, banned words, placeholders, staleness.
+- `scripts/lint_claims.py`: em and en dashes, banned words, banned-claim patterns, guest-copy vocabulary.

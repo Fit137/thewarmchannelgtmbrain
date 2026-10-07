@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Channel ROI calculator</title>
+<style>
+@import url("../brand/fonts/fonts.css");
+
+/* Folio calculator-form. A form inside a document, not a widget on top of
+   one. Results reuse hero-figure and filing-table rather than inventing
+   result cards, per brand/DESIGN.md. */
+:root{
+  --paper:#FBF9F5; --sunk:#F4F1EB; --ink:#14120F; --body:#3A3733;
+  --muted:#6B655C; --rule:#DDD8CF; --rule-strong:#C3BBAE;
+  --accent:#1F3A5F; --flag:#6E2A2A;
+  --serif:"Folio Serif",Georgia,serif; --sans:"Folio Sans",Helvetica,sans-serif;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--body);font-family:var(--serif);
+  font-size:17px;line-height:1.6;font-weight:400;-webkit-font-smoothing:antialiased}
+.wrap{max-width:860px;margin:0 auto;padding:40px 24px 64px}
+
+.eyebrow{font-family:var(--sans);font-size:10px;font-weight:700;letter-spacing:.13em;
+  text-transform:uppercase;color:var(--ink);margin-bottom:10px}
+h2{font-family:var(--serif);font-size:31px;font-weight:400;line-height:1.16;
+  letter-spacing:-.012em;color:var(--ink);margin:0 0 14px}
+.sub{max-width:62ch;margin:0 0 30px;color:var(--body)}
+
+.cols{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:44px}
+
+/* Inputs */
+.f{margin-bottom:20px}
+.f label{display:block;font-family:var(--sans);font-size:12px;font-weight:600;
+  color:var(--ink);margin-bottom:3px}
+.hint{font-family:var(--sans);font-size:11px;font-weight:400;color:var(--muted);
+  line-height:1.45;margin-bottom:7px}
+.inp{display:flex;align-items:stretch;border:1px solid var(--rule);background:var(--sunk)}
+.inp:focus-within{border-color:var(--accent);outline:2px solid var(--accent);outline-offset:1px}
+.pre,.suf{font-family:var(--sans);font-size:13px;font-weight:500;color:var(--muted);
+  padding:9px 0 9px 11px;align-self:center}
+.suf{padding:9px 11px 9px 0}
+.inp input{flex:1;min-width:0;border:0;background:transparent;outline:none;
+  font-family:var(--sans);font-size:15px;font-weight:500;color:var(--ink);
+  padding:9px 11px 9px 4px;font-variant-numeric:tabular-nums}
+.inp input.nopre{padding-left:11px}
+.bench{margin-top:7px;background:none;border:0;padding:0;cursor:pointer;
+  font-family:var(--sans);font-size:11px;font-weight:600;color:var(--accent);
+  text-decoration:underline;text-underline-offset:2px}
+
+/* hero-figure: sans, proportional figures, one per view. */
+.hero{border-top:1px solid var(--ink);padding-top:16px;margin-bottom:26px}
+.hero .v{font-family:var(--sans);font-size:70px;font-weight:600;line-height:1;
+  letter-spacing:-.025em;color:var(--accent)}
+.hero .c{font-family:var(--sans);font-size:12px;font-weight:400;color:var(--muted);
+  line-height:1.5;margin-top:9px;max-width:44ch}
+
+/* filing-table */
+table{border-collapse:collapse;width:100%;font-family:var(--sans);font-size:13px;
+  margin-bottom:8px}
+caption{text-align:left;font-size:10px;font-weight:700;letter-spacing:.13em;
+  text-transform:uppercase;color:var(--ink);padding-bottom:8px}
+th,td{text-align:left;padding:9px 12px 9px 0;border-bottom:1px solid var(--rule);
+  vertical-align:top;font-weight:400}
+tr:last-child td{border-bottom:1px solid var(--rule-strong)}
+td.num{text-align:right;padding-right:0;font-variant-numeric:tabular-nums;
+  white-space:nowrap;font-weight:600;color:var(--ink)}
+td .n{display:block;font-size:11px;font-weight:400;color:var(--muted);
+  line-height:1.45;margin-top:2px}
+tr.ours td{color:var(--ink);font-weight:600}
+tr.ours td:first-child{color:var(--accent)}
+.note{font-family:var(--sans);font-size:11px;font-weight:400;color:var(--muted);
+  line-height:1.55;margin:12px 0 0;max-width:64ch}
+.flag{color:var(--flag);font-weight:600}
+
+@media (max-width:760px){
+  .cols{grid-template-columns:minmax(0,1fr);gap:34px}
+  h2{font-size:25px}
+  .hero .v{font-size:54px}
+  .wrap{padding:28px 20px 48px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style></head><body>
+<div class="wrap">
+  <div class="eyebrow">Channel ROI calculator</div>
+  <h2>What this channel is worth to you</h2>
+  <p class="sub">Every conversion number here is yours. We do not supply a close rate,
+  because we do not know yours and we are not paid on it.</p>
+
+  <div class="cols">
+    <div>
+      <div class="f">
+        <label for="deal">Average deal size</label>
+        <div class="hint">First-year contract value for a typical new customer.</div>
+        <div class="inp"><span class="pre">$</span><input type="number" id="deal" value="120000" min="0" step="5000"></div>
+      </div>
+      <div class="f">
+        <label for="close">Close rate from a qualified first conversation</label>
+        <div class="hint">Of ten qualified conversations, how many become customers?</div>
+        <div class="inp"><input type="number" class="nopre" id="close" value="10" min="0" max="100" step="1"><span class="suf">%</span></div>
+        <button class="bench" id="useBench">Use industry benchmark, 30%</button>
+      </div>
+      <div class="f">
+        <label for="cac">Your current cost to acquire a customer</label>
+        <div class="hint">Total sales and marketing spend divided by new customers won.</div>
+        <div class="inp"><span class="pre">$</span><input type="number" id="cac" value="28000" min="0" step="1000"></div>
+      </div>
+      <div class="f">
+        <label for="fee">Engagement fee</label>
+        <div class="hint">The number we quoted you, or one you would be willing to pay.</div>
+        <div class="inp"><span class="pre">$</span><input type="number" id="fee" value="24000" min="0" step="1000"></div>
+      </div>
+      <div class="f">
+        <label for="seats">Qualified conversations you need</label>
+        <div class="hint">How many the programme is scoped to produce. Any format, any event size.</div>
+        <div class="inp"><input type="number" class="nopre" id="seats" value="12" min="1" max="200" step="1"></div>
+      </div>
+    </div>
+
+    <div>
+      <div class="hero">
+        <div class="v" id="roi">5.0x</div>
+        <div class="c" id="roiNote"></div>
+      </div>
+
+      <table>
+        <caption>What that is made of</caption>
+        <tbody>
+          <tr><td>Cost per qualified conversation<span class="n" id="cpcNote"></span></td>
+              <td class="num" id="cpc">$2,000</td></tr>
+          <tr><td>Expected new customers<span class="n" id="dealsNote">Conversations at your close rate</span></td>
+              <td class="num" id="deals">1.2</td></tr>
+          <tr><td>Expected first-year revenue<span class="n">Before renewal or expansion</span></td>
+              <td class="num" id="rev">$144,000</td></tr>
+          <tr><td>Cost to acquire, this channel<span class="n" id="ncacNote"></span></td>
+              <td class="num" id="ncac">$20,000</td></tr>
+        </tbody>
+      </table>
+
+      <table>
+        <caption>Cost per qualified conversation, by channel</caption>
+        <tbody>
+          <tr><td>Cold email, at enterprise</td><td class="num">$800 to $2,500</td></tr>
+          <tr><td>In-house SDR, fully loaded</td><td class="num">$700 to $1,150</td></tr>
+          <tr><td>ABM, one to one</td><td class="num">$800 to $2,500</td></tr>
+          <tr class="ours"><td>This channel, your numbers</td><td class="num" id="ours">$2,000</td></tr>
+        </tbody>
+      </table>
+      <p class="note" id="cmpNote"></p>
+
+      <p class="note">The close rate, the deal size and your current cost to acquire are
+      yours. We supply only the fee and the scope. Nothing here is a promise
+      about your pipeline. Benchmarks are published 2026 B2B sources, which are agency
+      aggregators rather than named institutions with published methods.</p>
+    </div>
+  </div>
+</div>
+
+<script>
+(function(){
+  var $=function(id){return document.getElementById(id)};
+  var money=function(n){
+    if(!isFinite(n)) return "n/a";
+    if(Math.abs(n)>=1e6) return "$"+(n/1e6).toFixed(n>=1e7?1:2).replace(/\.0+$/,"")+"M";
+    return "$"+Math.round(n).toLocaleString("en-US");
+  };
+  function calc(){
+    var deal=+$("deal").value||0, close=(+$("close").value||0)/100,
+        cac=+$("cac").value||0, fee=+$("fee").value||0, seats=+$("seats").value||1;
+    var cpc   = seats>0 ? fee/seats : 0;
+    var deals = seats*close;
+    var rev   = deals*deal;
+    var ncac  = deals>0 ? fee/deals : Infinity;
+    var roi   = fee>0 ? rev/fee : 0;
+
+    // The figure is allowed to be bad, and says so when it is. A calculator
+    // that can only return good news is read as marketing.
+    $("roi").textContent = (roi>=100? Math.round(roi) : roi.toFixed(1))+"x";
+    $("roi").style.color = roi>=1 ? "var(--accent)" : "var(--flag)";
+    $("roiNote").innerHTML = roi>=1
+      ? "For every $1 of fee, "+money(rev/Math.max(fee,1))+" of expected first-year "+
+        "revenue, using your close rate of "+($("close").value||0)+"%."
+      : "<span class='flag'>At a "+($("close").value||0)+"% close rate this channel does not "+
+        "pay for itself.</span> Either the fee is too high for your deal size, or the "+
+        "programme is scoped too small.";
+
+    $("cpc").textContent = money(cpc);
+    $("cpcNote").innerHTML = cpc<=700
+      ? "Below every outbound benchmark below."
+      : (cpc<=2500 ? "Inside the $750 to $2,500 a senior meeting costs through outbound."
+                   : "<span class='flag'>Above the outbound benchmark range.</span>");
+    $("deals").textContent = deals.toFixed(1);
+    $("dealsNote").textContent = seats+" conversations at your close rate";
+    $("rev").textContent   = money(rev);
+    $("ncac").textContent  = isFinite(ncac)? money(ncac) : "n/a";
+
+    var diff = cac-ncac;
+    $("ncacNote").innerHTML = !isFinite(ncac) ? "Set a close rate above zero."
+      : (diff>0 ? money(diff)+" cheaper than your current "+money(cac)+"."
+                : "<span class='flag'>"+money(-diff)+" more than your current "+money(cac)+".</span>");
+
+    $("ours").textContent = money(cpc);
+    $("ours").style.color = cpc>2500 ? "var(--flag)" : "";
+    $("cmpNote").innerHTML = (cpc>2500
+      ? "<span class='flag'>Your cost per conversation is above the outbound range.</span> "
+      : "Your cost per conversation sits inside the outbound range. ")
+      + "These are costs, not value. Outbound buys thirty minutes on a video call. "
+      + "This channel buys two hours across a table, then weeks of follow-through.";
+  }
+  ["deal","close","cac","fee","seats"].forEach(function(id){
+    $(id).addEventListener("input",calc)});
+  $("useBench").addEventListener("click",function(){$("close").value=30;calc()});
+  calc();
+})();
+</script>
+</body></html>

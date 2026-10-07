@@ -1,0 +1,17 @@
+---
+description: Go-to-Market Brain, build and operate a governed GTM context repository
+globs:
+alwaysApply: false
+---
+
+When the task involves building a go-to-market context repository, distilling GTM dashboards
+or strategy documents into a repo, logging a market signal, taking a periodic snapshot, or
+producing or checking customer-facing copy against a brain, read `{{SKILL_PATH}}/SKILL.md`
+first and follow its procedure.
+
+It routes to three modes: BUILD a new brain, UPDATE one from a signal or snapshot, or OPERATE
+it to produce and QA an asset. Load the reference file that SKILL.md names for the mode you
+are in rather than improvising the method.
+
+If a built brain exists here, its entry file and `rules/` layer load before any customer-facing
+writing, and `ops/QA-checklist.md` runs before the draft comes back.

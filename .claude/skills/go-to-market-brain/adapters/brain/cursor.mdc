@@ -1,0 +1,21 @@
+---
+description: The {{PROJECT}} go-to-market brain. Load before any customer-facing copy, positioning, messaging, or competitive work.
+globs:
+alwaysApply: false
+---
+
+The {{PROJECT}} go-to-market lives at `{{BRAIN_PATH}}` and is the source of truth for
+positioning, messaging, claims, and voice.
+
+Read in this order before writing anything customer-facing: `{{BRAIN_PATH}}/AGENTS.md`, then
+`rules/writing-rules.md`, `rules/do-not-say.md`, and `rules/feature-status.md`. For
+{{PRIMARY_CHANNEL}} work, load the channel engine the router names.
+
+Pick the audience first and never blend them:
+{{AUDIENCE_LIST}}
+
+Non-negotiables:
+{{NON_NEGOTIABLES}}
+
+Run `{{BRAIN_PATH}}/ops/QA-checklist.md` against the draft before returning it. New market input
+goes to `{{BRAIN_PATH}}/ops/signal-log.md` first, never straight into the copy.
