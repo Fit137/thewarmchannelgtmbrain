@@ -67,6 +67,7 @@
 - [go-to-market-brain](.claude/skills/go-to-market-brain/SKILL.md): build, update and operate this brain.
 - [prospect-channel-strategy](.claude/skills/prospect-channel-strategy/SKILL.md): a free in-person channel strategy for one gated prospect, from public information, in a workspace outside this repository.
 - [prospect-deck-builder](.claude/skills/prospect-deck-builder/SKILL.md): that strategy as an interactive deck in the prospect's own branding, checked and sent privately.
+- [prospect-show-week-brief](.claude/skills/prospect-show-week-brief/SKILL.md): one page about the week of a prospect's coming show, the lighter gift.
 
 ## Operations and state
 - [Decision log](ops/decisions.md): decided and open, D1 to D17, the amendment procedure.

@@ -51,6 +51,7 @@ last_reviewed: 2026-10-08
 - Website and domain: IN BUILD. Domain `{TBD}`.
 - Prospect channel strategy, free, for a named priority prospect that passes the gate, built from public information with the `prospect-channel-strategy` skill: READY as method. Two to four founder days per strategy. Never sent to anyone yet.
 - Prospect strategy deck in the prospect's own branding, built with the `prospect-deck-builder` skill: READY. Engine and checks built and tested on a fictional example only. Sent privately, never published, never reused.
+- Show-week brief, free, one page about a prospect's coming show, for a GO or a HOLD with a show 3 to 12 weeks away, built with the `prospect-show-week-brief` skill: READY as method. About half a day per brief. Tested on a fictional example only, never sent yet.
 
 ## Supply and channels
 

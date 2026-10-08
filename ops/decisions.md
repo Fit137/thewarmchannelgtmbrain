@@ -31,6 +31,18 @@ What was decided, when, and why, so settled strategy is never relitigated, and w
 
 ---
 
+## 2026-10-08 A show-week brief, the lighter gift (DECIDED, guardrails are build interpretations the founder may overturn)
+**Decided by the founder, 2026-10-08:** a one-page brief about the week of a show a qualified prospect already funds, in its own branding, as a lighter value-first gift than the full strategy. Built as `.claude/skills/prospect-show-week-brief`, on the same gate, workspace, claim envelope, brand kit and checks as the two prospect skills.
+**Guardrails, written into the skill as build interpretations:**
+1. For a GO or a HOLD with event spend scored 2 or more and no disqualifier, with the show 3 to 12 weeks away. Under 3 weeks nothing is sent.
+2. One gift per prospect. A brief and a strategy are never both sent unprompted, and a second gift follows only a reply.
+3. Public information only, read on a stated date. "Open" means nothing announced on public pages as of that date, re-checked within a week of sending.
+4. Competitors appear only as public announcements, attributed. Sessions by title, never by speaker.
+5. One suggestion, with its arithmetic at a cleared attendance rate, its timing said plainly, and its status wherever our work is mentioned. It always works without us.
+6. Two printed pages at most, one call to action, delivered and taken down as the strategy deck is.
+**What this does not change:** everything in the 2026-10-08 strategy entry, D2, D4, D5, D11, the empty proof set.
+**Downstream:** `rules/service-status.md`, master context sections 3 and 14 to version 1.2, `reference/lead-magnets.md` section 5, `reference/offer-components.md`, `templates/prospect-approach.md`, `ops/asset-index.md`, `ops/signal-log.md`, `CLAUDE.md`, `AGENTS.md`, `llms.txt`, `README.md`, `COMMAND-CENTER.md`, `adapters/portable-control-layer.md` to version 1.2, the CI self-test.
+
 ## 2026-10-08 A free channel strategy and a branded deck for qualified prospects (DECIDED, guardrails are build interpretations the founder may overturn)
 **Decided by the founder, 2026-10-08:** when a highly qualified company is found, The Warm Channel builds its in-person channel strategy and shares it with that company in its own branding, as free value for a high-value lead. Two steps: the strategy, then the strategy packaged as an interactive deck that shows the value, the return, the plan and why to consider the channel. Built as two vendored skills, `.claude/skills/prospect-channel-strategy` and `.claude/skills/prospect-deck-builder`.
 **Guardrails, written into the skills as build interpretations:**

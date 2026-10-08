@@ -1,0 +1,116 @@
+{
+  "schema": "twc.show-week-brief/1",
+  "prospect": {
+    "id": "",
+    "company": "",
+    "short_name": "",
+    "slug": "",
+    "website": "",
+    "lang": "en-CA"
+  },
+  "version": "v1",
+  "date": "",
+  "basis": "Public information only, read on [date]. No calendar, booking or account list seen.",
+  "paper": "letter",
+  "envelope": {
+    "generated": "",
+    "brain_commit": "",
+    "path": "evidence/envelope.md"
+  },
+  "gate": {
+    "verdict": "",
+    "total": 0,
+    "scores": {
+      "acv": 0,
+      "event_spend": 0,
+      "unreachable": 0,
+      "warm": 0,
+      "converts": 0,
+      "owner": 0
+    },
+    "disqualifiers": [],
+    "notes": ""
+  },
+  "show": {
+    "name": "",
+    "edition": "",
+    "start": "",
+    "end": "",
+    "presence": "",
+    "presence_evidence": [],
+    "audience": "",
+    "audience_evidence": []
+  },
+  "kicker": "",
+  "headline": "",
+  "standfirst": "",
+  "days": [],
+  "buyer_sessions": [
+    {
+      "title": "",
+      "when": "",
+      "why": "",
+      "evidence": []
+    }
+  ],
+  "competing_evenings": [
+    {
+      "when": "",
+      "host": "",
+      "what": "",
+      "evidence": []
+    }
+  ],
+  "open_slots": [
+    {
+      "when": "",
+      "why": ""
+    }
+  ],
+  "open_as_of": "",
+  "question": {
+    "label": "",
+    "question": "",
+    "why": "",
+    "evidence": []
+  },
+  "suggestion": {
+    "title": "",
+    "body": "",
+    "format": "Invite-only executive dinner",
+    "seats": 12,
+    "rate": 0.7,
+    "source_n": 1,
+    "timing": "",
+    "status": ""
+  },
+  "unknowns": [
+    "Who from your team is in town, and on which days: {TBD}",
+    "Meetings already booked for the week: {TBD}",
+    "Which of your named accounts will be at the show: {TBD}. Only your own team can say"
+  ],
+  "next_step": {
+    "headline": "If this is useful, one call",
+    "body": "Thirty minutes on how you want to use the week, with your own calendar in front of you. Nothing changes hands."
+  },
+  "cta": {
+    "label": "Book a call",
+    "href": ""
+  },
+  "sources": [
+    {
+      "n": 1,
+      "text": "Clutch Events attendance benchmark: 13,155 registrations across 191 invite-only, free-to-attend executive B2B events, 2025 to early 2026",
+      "kind": "industry benchmark",
+      "url": "https://report.clutchevents.co",
+      "ledger": "11"
+    }
+  ],
+  "method": "Read from public pages only: the organiser's agenda, exhibitor list and prospectus, and events pages announced by vendors and associations. Open means nothing was announced on public pages on the date above, not that nothing will happen.",
+  "number_provenance": {},
+  "before_you_send": {
+    "verified": [],
+    "needs_settling": [],
+    "designed_not_supplied": []
+  }
+}

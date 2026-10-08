@@ -77,7 +77,7 @@ Full queue with defaults: `ops/decisions.md`. Briefs: `templates/decision-brief.
 | Channel strategy, the coverage read, audience research, programme design | Guest and demonstration outreach, D5 |
 | Founder posts, low-volume prospect approaches, discovery calls | Post-event conversion, D11 |
 | Partnership conversations | The promise, D4. Pricing, D2 and D10. Scope and invoicing, D1 |
-| A free channel strategy and branded deck for a gated priority prospect, with the two prospect skills | Approaching guests on the prospect's behalf, D5. After the evening, D11 |
+| A free channel strategy and branded deck for a gated priority prospect, or a one-page show-week brief for a shorter runway, with the prospect skills | Approaching guests on the prospect's behalf, D5. After the evening, D11 |
 | The ROI calculator logic, the landing page draft, internally | Publishing the page, D16, D11, D13 |
 
 Full ledger: `rules/service-status.md`.

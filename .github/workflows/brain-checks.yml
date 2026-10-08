@@ -40,3 +40,7 @@ jobs:
           python3 $D/scripts/build_deck.py $D/assets/example/deck.json $D/assets/example/brand.json --out /tmp/acme_send.html
           python3 $D/scripts/build_deck.py $D/assets/example/deck.json $D/assets/example/brand.json --out /tmp/acme_present.html --audience present
           python3 $D/scripts/deck_check.py /tmp/acme_send.html --deck $D/assets/example/deck.json --register $C/assets/example/evidence-register.md --design /tmp/spec/02-design-concepts.md --brand $D/assets/example/brand.json --quiet
+          B=$S/prospect-show-week-brief
+          python3 $B/scripts/validate_brief.py $B/assets/example/brief.json --register $B/assets/example/evidence-register.md --today 2026-10-08
+          python3 $B/scripts/build_brief.py $B/assets/example/brief.json $D/assets/example/brand.json --out /tmp/acme_brief.html
+          python3 $B/scripts/brief_check.py /tmp/acme_brief.html --brief $B/assets/example/brief.json --register $B/assets/example/evidence-register.md --quiet

@@ -32,6 +32,12 @@ Default disposition is NOISE. A brain that amends on every input has no memory. 
 
 ## Entries
 
+### 2026-10-08 | STATUS | Founder, a second gift for leads
+**Verbatim:** "Show-week brief let's do this one."
+**Context:** Chosen from a shortlist of lighter value-first gifts: one page about the week of a show the prospect already funds. Sized for a short runway or a HOLD, where the full strategy does not fit.
+**Disposition:** AMEND
+**Routed to:** `ops/decisions.md` entry of 2026-10-08, `rules/service-status.md`, `.claude/skills/prospect-show-week-brief/`.
+
 ### 2026-10-08 | STATUS | Founder, a new lead magnet
 **Verbatim:** "The concept here is giving free value for a high-value lead. If I find a company that is highly qualified, I want to create their event strategy and share it with them using their own branding."
 **Context:** An internal decision rather than market input, captured here first so the amendment trail starts in the usual place. It turns the event portfolio teardown variant into a full, gated, per-prospect strategy and deck.

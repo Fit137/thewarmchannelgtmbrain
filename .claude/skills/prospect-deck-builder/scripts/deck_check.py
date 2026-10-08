@@ -195,7 +195,7 @@ NUM_TOKEN = re.compile(r"""
     (?P<money>(?:CA|US|C|A|NZ|AU)?[$€£]\s?\d[\d,]*(?:\.\d+)?(?:\s?(?:k|K|M|bn|million|billion|thousand)\b)?)
   | (?P<pct>(?<![\w.])\d[\d,]*(?:\.\d+)?\s?%)
   | (?P<mult>(?<![\w.])\d+(?:\.\d+)?x\b)
-  | (?P<count>(?<![\w.$€£])\d{1,3}(?:,\d{3})+(?![\d%])|(?<![\w.,$€£])\d{3,}(?![\d,%x]))
+  | (?P<count>(?<![\w.$€£])\d{1,3}(?:,\d{3})+(?![\d%])|(?<![\w.,$€£])\d{3,}(?!\d|,\d|\s?%|x\b))
 """, re.X)
 SCALE = {"k": 1e3, "K": 1e3, "thousand": 1e3, "M": 1e6, "million": 1e6, "bn": 1e9, "billion": 1e9}
 
@@ -492,7 +492,7 @@ def check_copy(groups, rep):
         for pat, why, sev, flags in DECK_RULES:
             for m in re.finditer(pat, text, flags):
                 ctx = snippet(text, m)
-                if "case stud" in m.group(0).lower() and re.search(r"\bno case stud", ctx, re.I):
+                if "case stud" in m.group(0).lower() and re.search(r"\bno case stud|\byour (own )?case stud", ctx, re.I):
                     continue
                 if m.group(0).lower().startswith("guarantee") and re.search(r"\bno guarantee", ctx, re.I):
                     rep.add("INFO", where, f"'no guarantee' line: {ctx}")

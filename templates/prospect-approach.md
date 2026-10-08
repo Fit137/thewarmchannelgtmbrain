@@ -26,6 +26,8 @@ For a named priority prospect that passed the gate and has a checked deck, per `
 
 Send the send build only, as a private noindex link. Never an HTML attachment, and for a security buyer attach nothing at all. No tracking of any kind. Time it so the anchor moment is at least eight weeks away. Every number about their business stays blank for them to fill in.
 
+The show-week brief has its own variant, under 100 words, in `.claude/skills/prospect-show-week-brief/templates/approach-message.md`. One gift per prospect: a brief or a strategy, never both unprompted.
+
 ## Never
 - A second message if they do not reply. One approach, then stop.
 - A sequence, a merge field doing the personalising, or a template sent to many.

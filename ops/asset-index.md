@@ -62,6 +62,7 @@ Prospect strategy decks are private: one company, one person, never published. T
 |---|---|---|---|
 | Prospect channel strategy method | `.claude/skills/prospect-channel-strategy/` | READY as method, never sent | `validate_strategy.py`, `evidence_check.py`, the claim envelope |
 | Prospect deck engine | `.claude/skills/prospect-deck-builder/` | READY, tested on a fictional example only | `deck_check.py`, `contrast.py`, `screenshot.py` |
+| Show-week brief | `.claude/skills/prospect-show-week-brief/` | READY as method, never sent | `validate_brief.py`, `brief_check.py` |
 
 **Sent so far: none, as of 2026-10-08.**
 

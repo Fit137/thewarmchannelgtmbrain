@@ -1,0 +1,303 @@
+{
+  "schema": "twc.show-week-brief/1",
+  "fictional": "Acme Example Co. and CloudSec Expo are invented. Every fact about either is made up to show the shape of a real brief. The market figure is real and comes from the brain's evidence ledger. Never reuse a sentence from this file for a real company.",
+  "prospect": {
+    "id": "PX-0000",
+    "company": "Acme Example Co.",
+    "short_name": "Acme",
+    "slug": "acme",
+    "website": "https://acme.example",
+    "lang": "en-CA"
+  },
+  "version": "v1",
+  "date": "2026-10-07",
+  "basis": "Public information only, read on 7 October 2026. No calendar, booking or account list seen.",
+  "paper": "letter",
+  "envelope": {
+    "generated": "2026-10-07",
+    "brain_commit": "c50659f",
+    "path": "evidence/envelope.md"
+  },
+  "gate": {
+    "verdict": "GO",
+    "total": 12,
+    "scores": {
+      "acv": 2,
+      "event_spend": 3,
+      "unreachable": 2,
+      "warm": 2,
+      "converts": 1,
+      "owner": 2
+    },
+    "disqualifiers": [],
+    "notes": "As in the Acme strategy example. The show is under eight weeks away, so the brief is the gift, not the full strategy."
+  },
+  "show": {
+    "name": "CloudSec Expo",
+    "edition": "2026",
+    "start": "2026-11-24",
+    "end": "2026-11-26",
+    "presence": "A booth, stand 214, and the opening breakfast",
+    "presence_evidence": [
+      "E20",
+      "E21"
+    ],
+    "audience": "The organiser expects about 3,500 attendees, with directors and above the largest group [2].",
+    "audience_evidence": [
+      "E22"
+    ]
+  },
+  "kicker": "Show-week brief, CloudSec Expo, 24 to 26 November",
+  "headline": "Your buyers will spend three days at CloudSec Expo. The evening before it opens is still free.",
+  "standfirst": "A one-page read of the week from public pages, for the team running Acme's presence. Where your buyers will be, what already competes for their evenings, and one way to use the week better. Everything only you know is left blank for you.",
+  "days": [
+    {
+      "date": "2026-11-23",
+      "label": "Mon 23 Nov",
+      "note": "The day before",
+      "slots": [
+        {
+          "part": "evening",
+          "kind": "open",
+          "title": "Nothing announced",
+          "evidence": [
+            "E28"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "label": "Tue 24 Nov",
+      "note": "Day 1",
+      "slots": [
+        {
+          "part": "breakfast",
+          "time": "07:30",
+          "kind": "yours",
+          "title": "Opening breakfast, sponsored by Acme",
+          "evidence": [
+            "E21"
+          ]
+        },
+        {
+          "part": "morning",
+          "time": "11:00",
+          "kind": "session",
+          "title": "Machine identity in hybrid cloud",
+          "evidence": [
+            "E27"
+          ]
+        },
+        {
+          "part": "evening",
+          "time": "18:00",
+          "kind": "official",
+          "title": "Exhibitors' welcome reception, run by the organiser",
+          "evidence": [
+            "E23"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-11-25",
+      "label": "Wed 25 Nov",
+      "note": "Day 2",
+      "slots": [
+        {
+          "part": "breakfast",
+          "kind": "open",
+          "title": "Nothing announced",
+          "evidence": [
+            "E28"
+          ]
+        },
+        {
+          "part": "morning",
+          "time": "10:30",
+          "kind": "session",
+          "title": "Recovering from an identity incident",
+          "evidence": [
+            "E27"
+          ]
+        },
+        {
+          "part": "afternoon",
+          "time": "15:00",
+          "kind": "session",
+          "title": "The zero trust budget conversation",
+          "evidence": [
+            "E27"
+          ]
+        },
+        {
+          "part": "evening",
+          "time": "19:00",
+          "kind": "competitor",
+          "title": "Competitor A, invitation-only dinner",
+          "evidence": [
+            "E24"
+          ]
+        },
+        {
+          "part": "evening",
+          "time": "19:30",
+          "kind": "competitor",
+          "title": "Competitor B, rooftop reception",
+          "evidence": [
+            "E25"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "label": "Thu 26 Nov",
+      "note": "Day 3, closes 14:00",
+      "slots": [
+        {
+          "part": "morning",
+          "time": "09:30",
+          "kind": "session",
+          "title": "Closing keynote",
+          "evidence": [
+            "E27"
+          ]
+        }
+      ]
+    }
+  ],
+  "buyer_sessions": [
+    {
+      "title": "Machine identity in hybrid cloud",
+      "when": "Tue 24, 11:00, identity track",
+      "why": "The question your case studies say your buyers are working on.",
+      "evidence": [
+        "E27"
+      ]
+    },
+    {
+      "title": "Recovering from an identity incident",
+      "when": "Wed 25, 10:30, identity track",
+      "why": "Heads of identity and risk leads, the two roles that weigh your deals.",
+      "evidence": [
+        "E27"
+      ]
+    },
+    {
+      "title": "The zero trust budget conversation",
+      "when": "Wed 25, 15:00, leadership track",
+      "why": "Where identity spend is argued for. The CISO's session.",
+      "evidence": [
+        "E27"
+      ]
+    }
+  ],
+  "competing_evenings": [
+    {
+      "when": "Tue 24, evening",
+      "host": "The organiser",
+      "what": "The exhibitors' welcome reception, open to all delegates",
+      "evidence": [
+        "E23"
+      ]
+    },
+    {
+      "when": "Wed 25, evening",
+      "host": "Competitor A",
+      "what": "An invitation-only dinner, announced on their events page",
+      "evidence": [
+        "E24"
+      ]
+    },
+    {
+      "when": "Wed 25, evening",
+      "host": "Competitor B",
+      "what": "A rooftop reception, open registration",
+      "evidence": [
+        "E25"
+      ]
+    }
+  ],
+  "open_slots": [
+    {
+      "when": "Mon 23, evening",
+      "why": "The evening before the floor opens, with nothing announced against it on any public page we read."
+    },
+    {
+      "when": "Wed 25, breakfast",
+      "why": "The morning after your own breakfast, before the identity incident session."
+    }
+  ],
+  "open_as_of": "7 October 2026",
+  "question": {
+    "label": "Machine identities",
+    "question": "How are you governing machine identities, now that they outnumber your people?",
+    "why": "It has its own session on day 1, and it runs through the identity track.",
+    "evidence": [
+      "E27",
+      "E14"
+    ]
+  },
+  "suggestion": {
+    "title": "A private table on the evening before the show",
+    "body": "Twelve people from your Tier 1 accounts, the evening before the floor opens, away from the venue, on the machine identity question. Nothing is announced against that evening, and it does not compete with the breakfast you already sponsor the next morning.",
+    "format": "Invite-only executive dinner",
+    "seats": 12,
+    "rate": 0.7,
+    "source_n": 1,
+    "timing": "With about seven weeks to go, a full table is tight: each person is approached individually, and that takes about six weeks. If you want it this year, the decision belongs in October. If not, it belongs on next year's calendar, and your own breakfast is where this year's conversations start.",
+    "status": "You can run it with your own team, and we can plan it with you now. Approaching guests on your behalf opens once our privacy position is written."
+  },
+  "unknowns": [
+    "Who from your team is in town, and on which days: {TBD}",
+    "Meetings already booked for the week: {TBD}",
+    "Which of your named accounts will be at the show: {TBD}. Only your own team can say"
+  ],
+  "next_step": {
+    "headline": "If this is useful, one call",
+    "body": "Thirty minutes on how you want to use the week, with your own calendar in front of you. Nothing changes hands."
+  },
+  "cta": {
+    "label": "Book a call",
+    "href": "mailto:founder@thewarmchannel.example?subject=CloudSec%20week"
+  },
+  "sources": [
+    {
+      "n": 1,
+      "text": "Clutch Events attendance benchmark: 13,155 registrations across 191 invite-only, free-to-attend executive B2B events, 2025 to early 2026",
+      "kind": "industry benchmark",
+      "url": "https://report.clutchevents.co",
+      "ledger": "11"
+    },
+    {
+      "n": 2,
+      "text": "CloudSec Expo 2026 sponsorship prospectus, audience profile",
+      "kind": "organiser's published prospectus",
+      "url": "https://cloudsecexpo.example/prospectus"
+    },
+    {
+      "n": 3,
+      "text": "CloudSec Expo 2026 agenda",
+      "kind": "organiser's published agenda",
+      "url": "https://cloudsecexpo.example/agenda"
+    }
+  ],
+  "method": "Read from public pages only: the organiser's agenda, exhibitor list and prospectus, and events pages announced by vendors and associations. Open means nothing was announced on public pages on the date above, not that nothing will happen.",
+  "before_you_send": {
+    "verified": [
+      "Invite-only executive dinners attend at 70%, Clutch Events, ledger row 11, grade B plus.",
+      "Acme's booth, stand 214, and its breakfast sponsorship, from the exhibitor list and the sponsor page.",
+      "Every session, reception and dinner on the page, each with its public page in the register."
+    ],
+    "needs_settling": [
+      "The call to action address. The mailto here is a placeholder domain.",
+      "The open slots, re-checked within a week of sending. A slot that fills turns the suggestion stale."
+    ],
+    "designed_not_supplied": [
+      "Every fact about Acme and CloudSec Expo. Both are fictional.",
+      "The seat count. Designed to show the arithmetic, never a promise."
+    ]
+  }
+}

@@ -58,6 +58,15 @@ Decided 2026-10-08. The event portfolio teardown taken all the way: for one name
 - **Where it leads**: a call with their numbers, the full coverage read on their list, and version 2 of the strategy, built on what they supplied.
 - **Privacy**: each prospect's workspace lives outside this repository. This brain holds the prospect's ID in `ops/pipeline.md` and nothing else.
 
+## 5. The show-week brief, READY as method
+
+Decided 2026-10-08. One page, in the prospect's branding, about the week of a show it already funds: where its buyers will be, what already competes for their evenings, what is still open, the question the week is asking, and one suggestion it can act on without us. Built with `.claude/skills/prospect-show-week-brief`.
+
+- **Who gets one**: a GO or a HOLD with event spend scored 2 or more and no disqualifier, with the show 3 to 12 weeks away. On a GO with eight weeks or more, choose between the brief and the full strategy: one gift per prospect, a second only after a reply.
+- **What it never contains**: a speaker's name, a judgement of a competitor's event, a figure about the prospect's plans, a reply rate beside the 70% benchmark, a price or a promise.
+- **Cost**: about half a day.
+- **Delivery**: as section 4, once, privately, taken down after the show.
+
 ## Rejected for every magnet
 
 Anything that promises a lead count, a meeting count or a named attendee, or that collects anything about the guest side.

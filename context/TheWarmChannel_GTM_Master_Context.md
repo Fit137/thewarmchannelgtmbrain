@@ -3,9 +3,9 @@ title: The Warm Channel Go-To-Market Master Context
 project: The Warm Channel
 type: gtm_context_file
 purpose: Single source of truth for any AI agent or operator executing The Warm Channel go-to-market work.
-version: 1.1
+version: 1.2
 last_updated: 2026-10-08
-status_notes: Pre-launch. No legal entity, no tax number, no website live, no client, no revenue, no delivered engagement, so the proof set is empty and closed. Every price, the promise and its remedy, the value metric, the unit name and the concentration segment are undecided. Post-event conversion contradicts the guest-side promise and is frozen until decision D11 lands. Guest and prospect outreach waits on a written CASL and PIPEDA position, D5. Grade C figures appear only on the landing page, attributed. A free, public-information channel strategy and a branded deck are READY for gated priority prospects, decided 2026-10-08, and never sent yet. Never invent a number. Write {TBD}.
+status_notes: Pre-launch. No legal entity, no tax number, no website live, no client, no revenue, no delivered engagement, so the proof set is empty and closed. Every price, the promise and its remedy, the value metric, the unit name and the concentration segment are undecided. Post-event conversion contradicts the guest-side promise and is frozen until decision D11 lands. Guest and prospect outreach waits on a written CASL and PIPEDA position, D5. Grade C figures appear only on the landing page, attributed. A free, public-information channel strategy and a branded deck are READY for gated priority prospects, and a one-page show-week brief for a shorter runway, both decided 2026-10-08 and never sent yet. Never invent a number. Write {TBD}.
 canonical_vocabulary: The Warm Channel, done-for-you B2B lead generation channel, in-person, qualified conversation, sales-qualified lead, coverage read, channel strategy, audience build, programme running, post-event conversion, measurement, client, prospect, guest, host, the evening, the question, anchor guest, founding guest cohort, founding client, named account list, in-ICP, credential, proof point, category benchmark, Folio
 ---
 
@@ -99,6 +99,7 @@ EXCLUDED, not offered by design. Say so when asked.
 | ROI calculator | READY as logic. Folio restyle IN BUILD |
 | Prospect channel strategy, free, for gated prospects | READY as method. Never sent yet |
 | Prospect strategy deck, in the prospect's branding | READY. Tested on a fictional example only |
+| Show-week brief, one page about a prospect's coming show | READY as method. Never sent yet |
 | Landing page | IN BUILD, draft with pre-ship claim fixes |
 | Scorecard and its email sequence | IN BUILD. Sequence BLOCKED, D1 |
 | Demonstration room | BLOCKED, D5 and runway |
@@ -345,7 +346,7 @@ Full method: `reference/channel-engine.md`. Three client-side channels, three gu
 
 **Excluded, and the brain refuses to produce for them**: paid advertising of any kind, sequenced cold email, high-volume LinkedIn automation, purchased lists, scraped personal addresses, a content calendar built on posting frequency, advertised guest invitations, and any follow-up to a guest who did not reply.
 
-**Lead magnets**: the prospect channel strategy and its branded deck, for a named priority prospect that passes the gate (its own in-person year, mapped from public information and rebuilt as a channel around its named accounts, packaged as an interactive deck in its own branding, given once and privately through one researched approach, decided 2026-10-08), the coverage read (human), the ROI calculator (self-serve, client supplies every input, returns a bad answer when the numbers are bad), and the coverage scorecard, being rebuilt from the GTA "Room Readiness" version. Express consent at scorecard completion makes it the cleanest consent position available. Its sequence cannot go live without a mailing address, D1.
+**Lead magnets**: the prospect channel strategy and its branded deck, for a named priority prospect that passes the gate (its own in-person year, mapped from public information and rebuilt as a channel around its named accounts, packaged as an interactive deck in its own branding, given once and privately through one researched approach, decided 2026-10-08), the show-week brief (one page in the prospect's branding about the week of a show it already funds, for a GO or a HOLD with the show 3 to 12 weeks away, decided 2026-10-08; one gift per prospect, a second only after a reply), the coverage read (human), the ROI calculator (self-serve, client supplies every input, returns a bad answer when the numbers are bad), and the coverage scorecard, being rebuilt from the GTA "Room Readiness" version. Express consent at scorecard completion makes it the cleanest consent position available. Its sequence cannot go live without a mailing address, D1.
 
 ---
 

@@ -28,6 +28,7 @@ This is not a go-to-market build. The prospect is an established company with a 
 | They replied, a call happened, they shared numbers or their named list | **UPGRADE**, version 2 | `reference/modes.md`, UPGRADE |
 | A strategy exists, is about to be sent, and is old, or the brain or their calendar moved | **REFRESH** | `reference/modes.md`, REFRESH |
 | NO-GO, a decline, a request to stop, or no reply | **STOP** | `reference/modes.md`, STOP |
+| A qualified prospect whose show is under eight weeks away, or a HOLD with a show coming | Not this skill | The **prospect-show-week-brief** skill: one page about one week. One gift per prospect, never both unprompted |
 
 ## Non-negotiables, as they apply here
 

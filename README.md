@@ -33,7 +33,7 @@ It is pre-launch: one founder, no entity yet, no client, no delivered engagement
 | `adapters/` | The portable control layer and pointer blocks | Tools other than Claude Code |
 | `sources/raw/` | Every source document, verbatim | Settling an argument about where a rule came from |
 | `scripts/` | Audit and claims lint | Every push, via CI, and every monthly sweep |
-| `.claude/skills/` | The `go-to-market-brain` skill, vendored, MIT, and the two prospect skills: `prospect-channel-strategy` and `prospect-deck-builder` | Running UPDATE and OPERATE modes. Building a free strategy and branded deck for a gated prospect |
+| `.claude/skills/` | The `go-to-market-brain` skill, vendored, MIT, and the three prospect skills: `prospect-channel-strategy`, `prospect-deck-builder` and `prospect-show-week-brief` | Running UPDATE and OPERATE modes. Building a free strategy and branded deck for a gated prospect |
 
 ## What you can do with it
 
