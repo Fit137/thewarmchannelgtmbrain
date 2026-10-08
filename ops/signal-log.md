@@ -32,6 +32,12 @@ Default disposition is NOISE. A brain that amends on every input has no memory. 
 
 ## Entries
 
+### 2026-10-08 | STATUS | Founder, a new lead magnet
+**Verbatim:** "The concept here is giving free value for a high-value lead. If I find a company that is highly qualified, I want to create their event strategy and share it with them using their own branding."
+**Context:** An internal decision rather than market input, captured here first so the amendment trail starts in the usual place. It turns the event portfolio teardown variant into a full, gated, per-prospect strategy and deck.
+**Disposition:** AMEND
+**Routed to:** `ops/decisions.md` entry of 2026-10-08, `rules/service-status.md`, the two new skills in `.claude/skills/`.
+
 ### 2026-10-07 | RISK | Brain build, live test
 **Verbatim:** First draft of the category post said the two event types shared "the same buyers, often the same month", and that "most event plans skip" the arithmetic.
 **Context:** Phase 9 live test, client audience, awareness. Neither claim is in the benchmark or the evidence ledger. The QA checklist caught both.

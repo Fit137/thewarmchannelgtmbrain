@@ -58,6 +58,8 @@ A number with its date ("Cold email reply rates were 8.5% in 2019."). A named pu
 
 One named person, researched properly, approached once, with the reason in the first line. Short. Names the host where there is one. **Once.** No sequence, no follow-up, no second attempt on the same question. A non-reply is an answer. Twenty well-researched approaches beat four hundred sent.
 
+For a named priority prospect that passes the gate, the one approach may carry a prepared strategy: its own in-person year rebuilt as a channel, as a private deck in its own branding. The same rules hold: once, one person, no follow-up. See `reference/lead-magnets.md` section 4 and the prepared-strategy variant in `templates/prospect-approach.md`.
+
 ## Calls to action
 
 Website: "Book a call", only. Posts: one soft line, usually the coverage read: "Send one target account list and get the coverage read back." Guest messages: "Reply yes or no. Either is a fine answer."

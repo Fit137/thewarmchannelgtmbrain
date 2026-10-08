@@ -37,7 +37,7 @@
 - [Channel engine](reference/channel-engine.md): thesis, how channels feed each other, post archetypes, method, exclusions.
 - [Engagement playbook](reference/engagement-playbook.md): plan, fill, convert, with status on every step.
 - [Pricing and packaging](reference/pricing-and-packaging.md): value metric options, retired scopes, ROI anchors, settle order.
-- [Lead magnets](reference/lead-magnets.md): coverage read, calculator and its pre-ship fixes, scorecard rebuild.
+- [Lead magnets](reference/lead-magnets.md): coverage read, calculator and its pre-ship fixes, scorecard rebuild, the prospect channel strategy and its branded deck.
 - [Founder credentials](reference/founder-credentials.md): permitted wording and gates.
 - [Compliance and consent](reference/compliance-and-consent.md): what is open and blocked, the counsel re-scope, the record.
 - [Guest economics](reference/guest-economics.md): what the guest gives and gets, the second-acceptance factors.
@@ -63,11 +63,16 @@
 ## Prompts
 - [Common tasks](prompts/common-tasks.md): filled prompts for recurring jobs, and the jobs with no prompt on purpose.
 
+## Skills
+- [go-to-market-brain](.claude/skills/go-to-market-brain/SKILL.md): build, update and operate this brain.
+- [prospect-channel-strategy](.claude/skills/prospect-channel-strategy/SKILL.md): a free in-person channel strategy for one gated prospect, from public information, in a workspace outside this repository.
+- [prospect-deck-builder](.claude/skills/prospect-deck-builder/SKILL.md): that strategy as an interactive deck in the prospect's own branding, checked and sent privately.
+
 ## Operations and state
 - [Decision log](ops/decisions.md): decided and open, D1 to D17, the amendment procedure.
 - [Signal log](ops/signal-log.md): raw market input, verbatim, with disposition.
 - [Copy bank](ops/copy-bank.md): approved, held, proposed and retired language.
-- [Asset index](ops/asset-index.md): the source manifest, live surfaces, adapters.
+- [Asset index](ops/asset-index.md): the source manifest, live surfaces, private surfaces, adapters.
 - [Review cadence](ops/review-cadence.md): rituals, owners, staleness thresholds, authority.
 - [KPI dictionary](ops/kpi-dictionary.md): every metric defined once.
 - [Risk register](ops/risk-register.md): 22 risks with mitigations.

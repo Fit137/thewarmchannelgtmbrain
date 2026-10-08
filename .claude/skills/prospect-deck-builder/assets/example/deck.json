@@ -1,0 +1,953 @@
+{
+  "schema": "twc.prospect-deck/1",
+  "fictional": "Acme Example Co. is invented. Every fact about Acme in this file is made up to show the shape of a real deck. The market figures are real and come from the brain's evidence ledger, cleared for client assets. Never reuse a sentence about Acme for a real company.",
+  "meta": {
+    "company": "Acme Example Co.",
+    "title": "In-person channel strategy for Acme Example Co.",
+    "prepared_by": "The Warm Channel",
+    "version": "v1",
+    "version_label": "Version 1, public information only",
+    "date_label": "7 October 2026",
+    "confidential": "Prepared privately for Acme Example Co. Not for distribution.",
+    "lang": "en-CA",
+    "carrying_line": "Keep the moments you already fund. Add private tables for your named accounts around them. Follow through with the guests who choose to continue.",
+    "cta": {
+      "label": "Book a call",
+      "href": "mailto:founder@thewarmchannel.example?subject=Acme%20channel%20strategy"
+    }
+  },
+  "motif": {
+    "count": 36,
+    "seed": 7,
+    "lit_every": 3
+  },
+  "home": {
+    "kicker": "In-person channel strategy, version 1",
+    "headline": "Acme already meets its buyers in person. This is how to run those moments as a channel.",
+    "standfirst": "A strategy built from the outside, from public information only, for the team that owns Acme's events and pipeline. Six short decks, about twenty minutes in all. Every number about your business is left for you to fill in.",
+    "chapters": [
+      {
+        "deck": "a",
+        "claim": "You already fund an in-person year. It is not yet built around your buyers.",
+        "so_what": "The budget and the belief are already in place, so this is a change of method, not a new spend.",
+        "evidence": [
+          "Five public moments a year put Acme in the same building as its buyers.",
+          "Invite-only executive dinners attend at 70% of registered, vendor-owned conferences at 19% [1]."
+        ],
+        "carry": "If the buyers are already in the building, the question is who gets time with them."
+      },
+      {
+        "deck": "b",
+        "claim": "Four or five people decide an Acme deal. They are the room.",
+        "so_what": "The channel starts from your named accounts and the committee inside each one, not from a rented audience.",
+        "evidence": [
+          "Cold approaches reach each member of the committee alone. A table reaches several of them around one question.",
+          "How many of your named accounts can be assembled is {TBD} until we read your list."
+        ],
+        "carry": "Once you know who must be there, the calendar can be built around them."
+      },
+      {
+        "deck": "c",
+        "claim": "The plan keeps every moment you fund and adds the conversations around it.",
+        "so_what": "Nothing you rely on is cut. The budget is redirected toward the accounts you named.",
+        "evidence": [
+          "Private tables during SecureCon week, where your buyers already are.",
+          "Quarterly tables in the three metros where your Tier 1 accounts cluster."
+        ],
+        "carry": "A plan is only as good as the number of the right people who actually arrive."
+      },
+      {
+        "deck": "d",
+        "claim": "A room fills by arithmetic, and the conversation continues by consent.",
+        "so_what": "Twelve seats needs about seventeen confirmations at the dinner benchmark, and that is weeks of individual work.",
+        "evidence": [
+          "Attendance depends on format: 86% for VIP and sport hospitality, 70% for executive dinners, 19% for vendor-owned conferences [1].",
+          "Follow-through runs only with guests who choose to continue."
+        ],
+        "carry": "The work is real. The next question is whether it pays."
+      },
+      {
+        "deck": "e",
+        "claim": "The money is already being spent. The question is what it buys.",
+        "so_what": "You can test the economics on your own numbers in the calculator. We do not supply a single conversion figure.",
+        "evidence": [
+          "Trade show exhibiting is 40.8% of exhibitor marketing budgets, the largest single line [2].",
+          "A badge scan costs $112 to $300 [3]."
+        ],
+        "carry": "If the arithmetic works, the last question is who runs it."
+      },
+      {
+        "deck": "f",
+        "claim": "You can run this yourselves. We would like to run it with you.",
+        "so_what": "The plan is yours either way. The difference is who carries six weeks of outreach per moment.",
+        "evidence": [
+          "We are new. No case study yet, and we are not going to dress that up.",
+          "Written scope agreed before anything starts."
+        ],
+        "carry": "The next step is one call with your numbers."
+      }
+    ],
+    "next_step": {
+      "headline": "The next step is one call",
+      "body": "Thirty minutes to walk through this with your numbers, and to agree whether a full coverage read on your named account list is worth doing. Nothing changes hands before a written scope."
+    },
+    "method": "Built from public information only: Acme's own pages, published event programmes and published industry research. We have not seen your CRM, your budget or your account list, so every number about your business is yours to fill in. Positions on the map in deck A are our reading of public information, not measurement.\n\nThis example company is fictional. It exists to show the shape of a real strategy deck.",
+    "signature": "Prepared by The Warm Channel for Acme Example Co."
+  },
+  "sources": [
+    {
+      "n": 1,
+      "text": "Clutch Events attendance benchmark: 13,155 registrations across 191 invite-only, free-to-attend executive B2B events, 2025 to early 2026",
+      "kind": "industry benchmark, published dataset",
+      "url": "https://report.clutchevents.co"
+    },
+    {
+      "n": 2,
+      "text": "CEIR 2026 Marketing Spend Decision Report",
+      "kind": "industry research"
+    },
+    {
+      "n": 3,
+      "text": "CEIR, trade show cost per lead benchmark",
+      "kind": "industry research"
+    }
+  ],
+  "design_global": {
+    "register": "A calm, exact briefing for an accountable marketing leader. Objects move like documents being laid on a table: they arrive, settle and stop. Nothing loops except the motif's slow turn, which is the one thing alive at rest.",
+    "easing": "One curve for the whole file, a decelerating ease out. Entry motion 560ms, slide change 520ms, line draws 900ms. Stagger 110ms to 160ms between siblings.",
+    "rig": "Real 3D only on the motif: a plane tilted 52 degrees back, marks lifted 30px toward the viewer when lit, perspective 1700px from slightly above. No 3D on charts or tables.",
+    "interaction": "Four interactions in the whole file: the motif tilts a few degrees with the pointer on centrepieces, the arithmetic slider and format select, the calculator fields, and the slide rail. Every interaction has a keyboard path.",
+    "motif": "The named-account ring. A ring of small marks, one per account, around an empty centre. Four states: scattered (cold channels), ringed (the named list), lit (the accounts in the room, lifted and in the accent role, the plane tilted like a table), connected (thin lines from the centre to the lit marks). Never labelled, never counted, never explained on screen.",
+    "constraints": "Single self-contained file. No network requests, no libraries. Tabular figures on every numeral. Reduced motion ships the resolved end state. Print path stacks the home layer and every slide.",
+    "accessibility": "Text contrast at least 4.5 to 1 against its surface. Every chart carries an accessible name. The live region announces deck, slide and title on every change."
+  },
+  "before_you_send": {
+    "verified": [
+      "Clutch Events attendance figures, evidence ledger rows 11 and 12, grade B plus.",
+      "CEIR 40.8% budget share and $112 to $300 per scan, ledger, grade B.",
+      "No reply rate appears anywhere in this file, because the 70% attendance benchmark does. Do-not-say, speech rule, and ledger rule 3."
+    ],
+    "needs_settling": [
+      "The call to action address. The mailto here is a placeholder domain.",
+      "Founder approval of the calculator copy adapted from the approved landing page calculator."
+    ],
+    "designed_not_supplied": [
+      "Every fact about Acme. The company is fictional.",
+      "Quadrant positions. Our reading of public information, not measurement.",
+      "Seat counts per format. Designed to show the arithmetic, never a promise.",
+      "The motif's mark count. Not data. Never labelled."
+    ]
+  },
+  "decks": [
+    {
+      "key": "a",
+      "name": "What you already fund",
+      "minutes": 3,
+      "slides": [
+        {
+          "layout": "cover",
+          "title": "Your buyers already meet you in person. The year is not yet built around them.",
+          "subtitle": "A read of Acme's public event calendar, from the outside.",
+          "motif": "ringed",
+          "notes": "This first deck is about what you already do well. You fund a real in-person year, and that is the hard part. What I want to show is where that year puts you near your buyers, and where it does not.",
+          "seconds": 17
+        },
+        {
+          "layout": "timeline",
+          "title": "Five moments a year put Acme in the same building as its buyers",
+          "start_month": 1,
+          "window_weeks": 0,
+          "items": [
+            {
+              "label": "Security Forum breakfast",
+              "month": 2,
+              "week": 2,
+              "kind": "existing"
+            },
+            {
+              "label": "SecureCon",
+              "month": 4,
+              "week": 4,
+              "kind": "existing"
+            },
+            {
+              "label": "Identity Summit",
+              "month": 6,
+              "week": 2,
+              "kind": "existing"
+            },
+            {
+              "label": "Partner roadshow",
+              "month": 9,
+              "week": 3,
+              "kind": "existing"
+            },
+            {
+              "label": "Acme Connect",
+              "month": 10,
+              "week": 2,
+              "kind": "existing"
+            },
+            {
+              "label": "Security Forum breakfast",
+              "month": 11,
+              "week": 3,
+              "kind": "existing"
+            }
+          ],
+          "legend_existing": "Public moments in Acme's year",
+          "note": "Read from public pages only. Your internal calendar will have more.",
+          "notes": "This is your year as anyone outside can see it. Six moments, five distinct events. I've only used public pages, so I'm sure your real calendar has more on it. The point is that you are already in the room with buyers several times a year.",
+          "seconds": 18
+        },
+        {
+          "layout": "quadrant",
+          "title": "Your buyers are densest where your access is thinnest",
+          "centrepiece": true,
+          "x_label": "New buyers in the room",
+          "y_label": "Time across a table",
+          "quadrants": [
+            "Build on",
+            "Keep for customers",
+            "Reconsider",
+            "Wrap with a private programme"
+          ],
+          "points": [
+            {
+              "label": "SecureCon booth",
+              "x": 14.2,
+              "y": -7.4,
+              "anchor": true
+            },
+            {
+              "label": "Identity Summit",
+              "x": 8.6,
+              "y": -2.3
+            },
+            {
+              "label": "Acme Connect",
+              "x": -6.1,
+              "y": 11.8
+            },
+            {
+              "label": "Partner roadshow",
+              "x": -3.8,
+              "y": 3.2,
+              "label_pos": "left"
+            },
+            {
+              "label": "Security Forum breakfasts",
+              "x": 5.4,
+              "y": 4.6
+            }
+          ],
+          "note": "Positions are our reading of public information, not measurement. New buyers means people in your segment who are not yet customers.",
+          "design": {
+            "stage": "Full-width chart on the surface role, axes in the ink role, quadrant names in the muted role.",
+            "hero": "The SecureCon point, in the accent role with a halo.",
+            "entry": "Axes are present on arrival. Points scale from 0.4 to 1 and fade in, 140ms apart, SecureCon last so the eye lands on it.",
+            "ambient": "None. A chart that moves at rest asks to be re-read.",
+            "interaction": "None. Every label is printed, nothing hides behind a hover.",
+            "restraint": "No 3D tilt. Perspective would distort position, and position is the claim.",
+            "reduced": "Points present at full size on arrival."
+          },
+          "notes": "This is the slide I'd most like you to argue with. Across, how many new buyers are in the room. Up, how much real time you get with them. SecureCon is where your buyers are densest, and a booth is where your access is thinnest. That bottom right corner is where the opportunity sits.",
+          "seconds": 22
+        },
+        {
+          "layout": "figure",
+          "title": "What a registration is worth depends on the format",
+          "figures": [
+            {
+              "value": "19%",
+              "caption": "of registrants attend vendor-owned conferences [1]",
+              "muted": true
+            },
+            {
+              "value": "70%",
+              "caption": "of registrants attend invite-only executive dinners [1]"
+            }
+          ],
+          "body": "Both are free to attend and aimed at senior B2B buyers. The format decides who turns up.",
+          "notes": "This is a category benchmark, not our number. Clutch Events looked at more than thirteen thousand registrations across a hundred and ninety-one invite-only events. Same kind of buyer, very different turnout depending on the format.",
+          "seconds": 15
+        },
+        {
+          "layout": "statement",
+          "title": "Your buyers will be at SecureCon. The booth is not where you get time with them.",
+          "body": "A private table during the same week reaches the same people, on your terms, without asking them to cross a show floor.",
+          "notes": "So the recommendation for SecureCon isn't to leave. It's to wrap it. Keep the booth if it earns its place, and add a private table that week for the accounts you actually named.",
+          "seconds": 13
+        },
+        {
+          "layout": "close",
+          "title": "You already fund the hardest part: being where your buyers are.",
+          "body": "The rest of this file shows how to turn that presence into conversations with the accounts you named.",
+          "notes": "That's the starting point. Next, who exactly needs to be at that table.",
+          "seconds": 5
+        }
+      ]
+    },
+    {
+      "key": "b",
+      "name": "Who has to be in the room",
+      "minutes": 3,
+      "slides": [
+        {
+          "layout": "cover",
+          "title": "Four or five people decide an Acme deal. They are the room.",
+          "subtitle": "Who your buyers are, why cold channels miss them, and where they already gather.",
+          "notes": "This deck is about the people. Not job titles in general, the committee inside the accounts you already named.",
+          "seconds": 8
+        },
+        {
+          "layout": "points",
+          "title": "The committee you sell to, and why each one would come",
+          "points": [
+            {
+              "label": "The CISO",
+              "line": "Signs. Comes for a question that is live across the sector, never for a product."
+            },
+            {
+              "label": "The head of identity",
+              "line": "Owns the problem. Comes to hear how three peers solved it."
+            },
+            {
+              "label": "The security architect",
+              "line": "Evaluates. Comes when the room is practitioners, not vendors."
+            },
+            {
+              "label": "The risk lead",
+              "line": "Weighs exposure. Comes when the question touches audit or regulation."
+            }
+          ],
+          "notes": "These four are drawn from the roles on your own case study pages. The reason each of them would come is different, and the invitation has to respect that.",
+          "seconds": 12
+        },
+        {
+          "layout": "motif",
+          "title": "Cold channels reach your buyers one at a time",
+          "state": "scattered",
+          "body": "Each approach lands alone, in an inbox every other vendor is also writing to. A table puts one question in front of several of them at once.",
+          "notes": "Think about how your sellers reach a CISO today: one message at a time, alone, next to every other vendor's. A table changes the unit. One question, several people from the committee, in the same room.",
+          "seconds": 14
+        },
+        {
+          "layout": "motif",
+          "title": "Your named accounts are the list. The channel starts from it, not from a rented audience.",
+          "state": "ringed",
+          "body": "Every name in the room starts as a name on your account list. You see who will be approached before anyone is contacted.",
+          "notes": "This is the difference from a hosted-buyer event. There, someone else's audience fills the room. Here, the room is built outward from your own list.",
+          "seconds": 10
+        },
+        {
+          "layout": "table",
+          "title": "Three tiers of accounts, and the number only your list can tell us",
+          "columns": [
+            "Tier",
+            "Who",
+            "Accounts",
+            "What the room is for"
+          ],
+          "rows": [
+            [
+              "Tier 1",
+              "Large regulated enterprises with identity programmes under review",
+              "{TBD}",
+              "First conversations with the committee"
+            ],
+            [
+              "Tier 2",
+              "Mid-size enterprises expanding cloud identity",
+              "{TBD}",
+              "Peer tables on a live question"
+            ],
+            [
+              "Expansion",
+              "Current customers with room to grow",
+              "{TBD}",
+              "A customer table, separate from prospects"
+            ]
+          ],
+          "highlight_row": 0,
+          "note": "Account counts are left blank on purpose. A full coverage read on your named list fills them in.",
+          "notes": "I've left the counts blank because I'd be guessing. A full coverage read on your actual list would tell us how many of these accounts have a reachable decision maker, and that number decides how many tables the year can support.",
+          "seconds": 16
+        },
+        {
+          "layout": "close",
+          "title": "Four or five people per account, and a list that tells us who they are.",
+          "body": "With the people defined, the calendar can be built around them.",
+          "notes": "Next, the plan itself.",
+          "seconds": 5
+        }
+      ]
+    },
+    {
+      "key": "c",
+      "name": "Run it as a channel",
+      "minutes": 4,
+      "slides": [
+        {
+          "layout": "cover",
+          "title": "One budget, run as a channel.",
+          "subtitle": "Keep the moments you fund. Add the conversations around them.",
+          "notes": "This is the plan. Nothing in it asks you to stop doing what works.",
+          "seconds": 6
+        },
+        {
+          "layout": "table",
+          "title": "Five choices, one per moment you already fund",
+          "columns": [
+            "Moment",
+            "Today",
+            "Recommendation"
+          ],
+          "rows": [
+            [
+              "SecureCon",
+              "Booth",
+              "Keep, and wrap with two private tables that week"
+            ],
+            [
+              "Identity Summit",
+              "Sponsorship",
+              "Keep, and host one table the evening before"
+            ],
+            [
+              "Security Forum breakfasts",
+              "Attendee seats",
+              "Redirect the budget into your own tables"
+            ],
+            [
+              "Acme Connect",
+              "Your conference",
+              "Keep for customers, add an expansion table"
+            ],
+            [
+              "Partner roadshow",
+              "Co-hosted sessions",
+              "Keep for partners. No change"
+            ]
+          ],
+          "highlight_row": 0,
+          "notes": "Each moment gets one decision. Most of them are keep. The one redirect is the breakfasts, where you're a guest at someone else's table rather than the host of your own.",
+          "seconds": 12
+        },
+        {
+          "layout": "points",
+          "title": "Three kinds of table, chosen from what each moment can carry",
+          "points": [
+            {
+              "label": "Show-week tables",
+              "line": "Small private tables during SecureCon and Identity Summit, for Tier 1 committees already in town."
+            },
+            {
+              "label": "Metro tables",
+              "line": "One table a quarter in each of the three metros where Tier 1 accounts cluster."
+            },
+            {
+              "label": "An expansion table",
+              "line": "At Acme Connect, for customers with room to grow, kept apart from prospects."
+            }
+          ],
+          "notes": "The format follows the answer. Where buyers already travel, meet them there. Where they don't, go to the cities where they work.",
+          "seconds": 9
+        },
+        {
+          "layout": "statement",
+          "title": "Keep the moments you already fund. Add private tables for your named accounts around them. Follow through with the guests who choose to continue.",
+          "still": true,
+          "design": {
+            "stage": "The line alone on the surface role, nothing else on the slide.",
+            "hero": "The sentence.",
+            "entry": "The sentence fades in once, 560ms. Nothing follows it.",
+            "ambient": "None. This is the deliberately still slide before the biggest moment.",
+            "interaction": "None.",
+            "restraint": "No motif, no figure, no motion after arrival. Stillness is what makes the next slide land.",
+            "reduced": "Identical."
+          },
+          "notes": "That's the whole plan in one sentence. Let me show you what it does to your year.",
+          "seconds": 7
+        },
+        {
+          "layout": "timeline",
+          "title": "Your year, rebuilt around the moments you already fund",
+          "centrepiece": true,
+          "dim_existing": true,
+          "start_month": 1,
+          "window_weeks": 6,
+          "items": [
+            {
+              "label": "SecureCon",
+              "month": 4,
+              "week": 4,
+              "kind": "existing"
+            },
+            {
+              "label": "Identity Summit",
+              "month": 6,
+              "week": 2,
+              "kind": "existing"
+            },
+            {
+              "label": "Acme Connect",
+              "month": 10,
+              "week": 2,
+              "kind": "existing"
+            },
+            {
+              "label": "Metro table",
+              "month": 2,
+              "week": 4,
+              "kind": "proposed"
+            },
+            {
+              "label": "SecureCon tables",
+              "month": 4,
+              "week": 4,
+              "kind": "proposed"
+            },
+            {
+              "label": "Summit eve table",
+              "month": 6,
+              "week": 1,
+              "kind": "proposed"
+            },
+            {
+              "label": "Metro table",
+              "month": 9,
+              "week": 2,
+              "kind": "proposed"
+            },
+            {
+              "label": "Expansion table",
+              "month": 10,
+              "week": 2,
+              "kind": "proposed"
+            }
+          ],
+          "legend_existing": "What you fund today",
+          "legend_proposed": "Proposed tables",
+          "legend_window": "Six-week outreach window",
+          "note": "Placements are a proposal. Late summer and the weeks around year-end are avoided where possible.",
+          "design": {
+            "stage": "Twelve-month strip on the surface role, month rules in the rule role.",
+            "hero": "The proposed tables in the accent role, each with its hatched outreach window.",
+            "entry": "Existing moments present on arrival, then dim to the muted role after 900ms. Outreach windows draw left to right, 900ms each, 120ms apart. Proposed tables pop in as each window completes.",
+            "ambient": "None.",
+            "interaction": "None.",
+            "restraint": "Existing moments dim but never disappear: the plan keeps them, and erasing them would contradict the slide.",
+            "reduced": "Everything present, existing moments already dimmed, windows fully drawn."
+          },
+          "notes": "Grey is what you fund today. Blue is what the plan adds. The hatched bars are the outreach windows, six weeks before each table, because that's how long it takes to get named senior people to commit. The year doesn't get busier everywhere. It gets busier where your accounts are.",
+          "seconds": 20
+        },
+        {
+          "layout": "points",
+          "title": "Three questions your buyers would give up an evening for",
+          "points": [
+            {
+              "label": "Machine identities",
+              "line": "How are you governing identities that now outnumber your people?"
+            },
+            {
+              "label": "Recovery",
+              "line": "What did your last identity incident teach you about time to recover?"
+            },
+            {
+              "label": "Budget",
+              "line": "Where does identity sit in the zero trust budget this year?"
+            }
+          ],
+          "body": "Each question would be verified as live before any invitation goes out. The host never chooses the question.",
+          "notes": "The question is the reason anyone comes. These three are drafts. Before any of them is used we'd check that it is genuinely live for these buyers right now.",
+          "seconds": 12
+        },
+        {
+          "layout": "close",
+          "title": "One budget, run as a channel, with the conversations built in.",
+          "body": "Next: how a table actually fills, and what happens after the evening.",
+          "notes": "The plan only works if the right people arrive. That's next.",
+          "seconds": 5
+        }
+      ]
+    },
+    {
+      "key": "d",
+      "name": "How a room fills, and what happens after",
+      "minutes": 4,
+      "slides": [
+        {
+          "layout": "cover",
+          "title": "A room fills by arithmetic. The conversation continues by consent.",
+          "subtitle": "The confirmation maths, the six-week window, the evening, and the step after it.",
+          "notes": "This is the part most plans skip, and it's where the result is decided.",
+          "seconds": 6
+        },
+        {
+          "layout": "arithmetic",
+          "title": "Twelve seats needs about seventeen confirmations. The format sets the arithmetic.",
+          "centrepiece": true,
+          "interactive": {
+            "seats": 12,
+            "min": 6,
+            "max": 40,
+            "ref": 1,
+            "formats": [
+              {
+                "label": "Invite-only executive dinner",
+                "rate": 0.7
+              },
+              {
+                "label": "VIP or sport hospitality",
+                "rate": 0.86
+              },
+              {
+                "label": "Vendor-owned conference",
+                "rate": 0.19
+              }
+            ],
+            "slider_label": "People in the room",
+            "select_label": "Format"
+          },
+          "steps": [
+            {
+              "value": "{TBD}",
+              "label": "people approached, set by the coverage read on your list"
+            }
+          ],
+          "note": "Attendance rates are the Clutch Events category benchmark, not our performance.",
+          "design": {
+            "stage": "Three blocks in a row on the surface role, each topped with an ink rule, the last with an accent rule.",
+            "hero": "The confirmations figure, which changes as the slider moves.",
+            "entry": "Blocks fade up left to right, 160ms apart. The controls arrive last at 900ms.",
+            "ambient": "None.",
+            "interaction": "The slider sets people in the room from 6 to 40. The select switches the format. Confirmations recompute instantly as people divided by the attendance rate, rounded to the nearest whole person.",
+            "restraint": "No count-up on recompute. A number that animates while someone drags reads as a slot machine.",
+            "reduced": "Identical, the recompute is already instant."
+          },
+          "notes": "Move the slider. Twelve people at a dinner needs about seventeen confirmations. Switch the format to a vendor conference and the same twelve needs more than sixty. That's why the format is a decision, not a detail.",
+          "seconds": 15
+        },
+        {
+          "layout": "steps",
+          "title": "Six weeks of individual work stand behind every table",
+          "steps": [
+            {
+              "label": "Weeks 6 to 4",
+              "line": "Research each named person and approach once, with the question in the first line.",
+              "result": "Approaches made"
+            },
+            {
+              "label": "Weeks 4 to 1",
+              "line": "Confirm, and tell everyone honestly who else is coming, by role.",
+              "result": "Confirmations against target"
+            },
+            {
+              "label": "The week",
+              "line": "Reconfirm close to the date. Update anyone if the room changed.",
+              "result": "Arrivals against confirmations"
+            }
+          ],
+          "notes": "One approach per person, never a sequence. If the room is thin, people are told. That honesty costs a few acceptances and keeps every relationship.",
+          "seconds": 10
+        },
+        {
+          "layout": "invitation",
+          "title": "How your guests would hear about it",
+          "subject": "One question, one evening",
+          "body": "How are you governing machine identities, now that they outnumber your people?\n\nI am putting a small number of security leaders who are working on it around one table. No vendors other than the host, and no consultants.\n\nThe host is paying for the evening. They did not choose the question, and they are not presenting on it.\n\nNo deck, no panel, no stage time. No attendee list is circulated, before or after.\n\nReply yes or no. Either is a fine answer.",
+          "note": "A sample in the language your guests would read. It never describes them as a target. Your guests are treated as guests.",
+          "notes": "This is what the guest sees. Notice what isn't there: no product, no pitch, no language about leads. The guest comes for the question and the people.",
+          "seconds": 11
+        },
+        {
+          "layout": "motif",
+          "title": "After the evening, the conversation continues with the people who choose to continue it",
+          "state": "connected",
+          "centrepiece": true,
+          "body": "After the evening, the conversation continues only with guests who choose it, and nobody is chased. How that step works is designed with you, and it is not offered until that design is settled.",
+          "design": {
+            "stage": "Text left, the motif right on its tilted plane.",
+            "hero": "Thin accent lines drawing from the empty centre to the lit marks.",
+            "entry": "Marks travel from scattered to the ring, 22ms apart, then the lit marks lift and turn to the accent role at 900ms, the centre appears at 1200ms, and the lines draw at 1500ms, 40ms apart.",
+            "ambient": "The plane turns one revolution every 140 seconds. Alive at rest, never busy.",
+            "interaction": "The plane tilts up to 4 degrees with the pointer.",
+            "restraint": "Lines run only to lit marks. Drawing a line to every mark would claim that every guest continues, which is the opposite of the slide.",
+            "reduced": "Ring, lit marks, centre and lines all present, no turn, no tilt."
+          },
+          "notes": "This is where an evening can become pipeline, and it's the part we haven't settled yet, on purpose. The conversation continues with the people who want it to, and nobody else. How that step works gets designed with you before anything starts, because it has to be right for your guests as well as your sellers.",
+          "seconds": 22
+        },
+        {
+          "layout": "table",
+          "title": "Report it the way finance reads it",
+          "columns": [
+            "Measure",
+            "What it counts",
+            "Target"
+          ],
+          "rows": [
+            [
+              "Named-account coverage",
+              "Named accounts with a senior person at a table",
+              "{TBD}"
+            ],
+            [
+              "Arrived against confirmed",
+              "Arrivals over confirmations, per table",
+              "{TBD}"
+            ],
+            [
+              "Qualified conversations",
+              "Conversations that continue after the evening, with guests who chose it",
+              "{TBD}"
+            ],
+            [
+              "Opportunities opened",
+              "From those conversations, in your CRM",
+              "{TBD}"
+            ]
+          ],
+          "note": "The report format is in development. Targets are set with you, from your own numbers.",
+          "notes": "These are the four numbers I'd take to finance. None of them is a badge scan. The report itself is still in development, and the targets come from your history, not from us.",
+          "seconds": 13
+        },
+        {
+          "layout": "close",
+          "title": "Arithmetic fills the room. Consent keeps it full next time.",
+          "body": "Next: whether the economics work on your numbers.",
+          "notes": "Which brings us to money.",
+          "seconds": 5
+        }
+      ]
+    },
+    {
+      "key": "e",
+      "name": "The economics",
+      "minutes": 3,
+      "slides": [
+        {
+          "layout": "cover",
+          "title": "The money is already being spent. The question is what it buys.",
+          "subtitle": "The budget share, the cost of the problem, three ways to spend it, and a calculator that runs on your numbers.",
+          "notes": "This is not a new budget request. It's the same budget, pointed at the accounts you named.",
+          "seconds": 7
+        },
+        {
+          "layout": "figure",
+          "title": "The trade show line is the largest in the exhibitor budget",
+          "figures": [
+            {
+              "value": "40.8%",
+              "caption": "of exhibitor marketing budgets goes to trade show exhibiting, the largest single line [2]"
+            }
+          ],
+          "notes": "Forty point eight percent, from CEIR's 2026 report. Across exhibitors it's the largest single line in the marketing budget, which is why it deserves to be run as a channel.",
+          "seconds": 12
+        },
+        {
+          "layout": "arithmetic",
+          "title": "Your cost per badge scan is a number you already have",
+          "steps": [
+            {
+              "value": "{TBD}",
+              "label": "badge scans from your last SecureCon"
+            },
+            {
+              "value": "$112 to $300",
+              "label": "cost per scan, the industry benchmark [3]"
+            },
+            {
+              "value": "{TBD}",
+              "label": "what those scans cost you, from your own budget"
+            }
+          ],
+          "note": "We do not estimate your spend. Your own number outranks any benchmark.",
+          "notes": "I've left your numbers blank because they're yours. The benchmark puts a scan somewhere between a hundred and twelve and three hundred dollars. Your real number is in your budget already.",
+          "seconds": 12
+        },
+        {
+          "layout": "comparison",
+          "title": "Three ways to spend the same budget",
+          "columns": [
+            "A booth only",
+            "A field marketing hire",
+            "Run it as a channel"
+          ],
+          "highlight_col": 2,
+          "rows": [
+            {
+              "label": "What you get",
+              "cells": [
+                "Floor space and scans",
+                "Capacity, split across many jobs",
+                "Conversations with named accounts"
+              ]
+            },
+            {
+              "label": "Who fills the room",
+              "cells": [
+                "Whoever walks past",
+                "The hire, around other work",
+                "Six weeks of individual approaches"
+              ]
+            },
+            {
+              "label": "After the event",
+              "cells": [
+                "It ends",
+                "It usually ends",
+                "Follow-through with guests who choose to continue"
+              ]
+            },
+            {
+              "label": "Reported in",
+              "cells": [
+                "Scans",
+                "Activity",
+                "Coverage and opportunities"
+              ]
+            }
+          ],
+          "notes": "This is the honest version. The booth gives you presence. A hire gives you capacity. Running it as a channel gives you conversations with the accounts you named.",
+          "seconds": 11
+        },
+        {
+          "layout": "calculator",
+          "title": "Run the arithmetic on your own numbers",
+          "centrepiece": true,
+          "calc_id": "roi",
+          "inputs": [
+            "deal",
+            "close",
+            "investment",
+            "conversations",
+            "cac",
+            "meeting"
+          ],
+          "intro": "Every number is yours. We do not supply a close rate, because we do not know yours.",
+          "design": {
+            "stage": "Fields left on the surface role, results right.",
+            "hero": "The return figure, in the accent role when it pays back and the flag role when it does not.",
+            "entry": "Fields fade up 110ms apart. Results stay hidden until the four required fields hold numbers.",
+            "ambient": "None. People are typing.",
+            "interaction": "Results recompute on every keystroke. Money fields format with separators when the field loses focus.",
+            "restraint": "No defaults, no example values, no count-up. A result built from our numbers would be a claim we cannot support.",
+            "reduced": "Identical."
+          },
+          "notes": "Put your own deal size and close rate in. If the numbers don't work, it says so in red. A calculator that can only return good news is just marketing.",
+          "seconds": 12
+        },
+        {
+          "layout": "close",
+          "title": "Same budget. Different question: not what it costs, but what it buys.",
+          "body": "Next: who runs it.",
+          "notes": "If the arithmetic works, the last question is who carries the work.",
+          "seconds": 5
+        }
+      ]
+    },
+    {
+      "key": "f",
+      "name": "How to run it",
+      "minutes": 3,
+      "slides": [
+        {
+          "layout": "cover",
+          "title": "Three ways to run this. One of them is us.",
+          "subtitle": "The plan is yours either way.",
+          "notes": "I mean that. If you run this in-house with this plan, it's still a better year.",
+          "seconds": 7
+        },
+        {
+          "layout": "comparison",
+          "title": "Who carries the six weeks is the real decision",
+          "columns": [
+            "In-house, with this plan",
+            "With The Warm Channel",
+            "A mix of both"
+          ],
+          "highlight_col": 1,
+          "rows": [
+            {
+              "label": "Who plans",
+              "cells": [
+                "Your team, from this file",
+                "We do, with your team",
+                "We do"
+              ]
+            },
+            {
+              "label": "Who approaches guests",
+              "cells": [
+                "Your team, around other work",
+                "We do, once our privacy position is written",
+                "We do for Tier 1, on the same condition"
+              ]
+            },
+            {
+              "label": "Who follows through",
+              "cells": [
+                "Your sellers",
+                "Designed with you before anything starts",
+                "The same"
+              ]
+            },
+            {
+              "label": "What you keep",
+              "cells": [
+                "Everything",
+                "The host position and every account relationship",
+                "The same"
+              ]
+            }
+          ],
+          "notes": "The decision isn't strategy. It's capacity. Somebody has to approach named senior people individually for six weeks before every table.",
+          "seconds": 8
+        },
+        {
+          "layout": "steps",
+          "title": "What we would do, and what is not set up yet",
+          "steps": [
+            {
+              "label": "Plan",
+              "line": "The channel around your account list: which moments, which formats, which accounts.",
+              "result": "You know what the year can deliver against your real list before you spend"
+            },
+            {
+              "label": "Fill",
+              "line": "Individual approaches to the people you named, over six weeks per table.",
+              "status": "Opens once our privacy position is written",
+              "result": "Every invitation goes to someone on your list"
+            },
+            {
+              "label": "Follow through",
+              "line": "What happens after the evening, for the guests who choose to continue, designed with you.",
+              "status": "Not offered until that design is settled",
+              "result": "Agreed in writing before the first invitation"
+            }
+          ],
+          "note": "We are new. No case study yet, and we are not going to dress that up.",
+          "notes": "I'll be straight about where we are. Planning is ready today. Approaching guests opens once our privacy position is written, and the follow-through isn't offered until we've designed it together. We're new, and I'd rather you hear that from me now.",
+          "seconds": 17
+        },
+        {
+          "layout": "statement",
+          "title": "The next step is one call, with your numbers.",
+          "body": "Bring your named account list if you want the full coverage read. Written scope agreed before anything starts.",
+          "notes": "Thirty minutes. If the numbers don't work, we'll both know quickly.",
+          "seconds": 5
+        },
+        {
+          "layout": "close",
+          "title": "Your buyers already meet you in person. Now the year can be built around them.",
+          "body": "Thank you for reading.",
+          "notes": "That closes the loop with the first slide. Thank you.",
+          "seconds": 5
+        }
+      ]
+    }
+  ]
+}

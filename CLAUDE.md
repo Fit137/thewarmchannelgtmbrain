@@ -37,5 +37,8 @@ Run `ops/QA-checklist.md` against the draft and say which blocks you ran. For gu
 ## When something changes
 New input from a prospect, client, guest, partner or competitor goes in `ops/signal-log.md` first, verbatim. If it changes a rule, follow the amendment procedure at the top of `ops/decisions.md`: ledger in `rules/`, then the master context, then the decision entry, then copy, then `adapters/portable-control-layer.md`. Never the other way around. Only the founder marks a decision DECIDED.
 
-## Skill
-The `go-to-market-brain` skill is vendored in `.claude/skills/`. Use its UPDATE mode for signals and snapshots, OPERATE mode for producing assets, and its audit script, as adapted in `scripts/audit_brain.py`.
+## Skills
+Three skills live in `.claude/skills/`.
+- `go-to-market-brain`, vendored, MIT. UPDATE mode for signals and snapshots, OPERATE mode for producing assets, and its audit script, as adapted in `scripts/audit_brain.py`.
+- `prospect-channel-strategy`. A free in-person channel strategy for one gated, highly qualified prospect, from public information, in a workspace outside this repository. Decided 2026-10-08.
+- `prospect-deck-builder`. Packages that strategy as an interactive deck in the prospect's own branding, checks it and sends it privately. Prospect data never enters this repository: the pipeline gets an ID.

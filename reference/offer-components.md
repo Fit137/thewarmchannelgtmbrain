@@ -65,4 +65,5 @@ One correction was recorded: post-event conversion was first scored "most vendor
 | One-segment sample | Medium high | Medium | The workhorse, offered on the first call |
 | Channel economics calculator | Medium | Easy | Built. Client supplies every input |
 | Event portfolio teardown | Medium high | Medium | Public content, no client list involved |
+| Prospect channel strategy and branded deck | High | Hard, two to four founder days | The teardown taken all the way, for one named priority prospect that passes the gate. Public information, given once, free. Decided 2026-10-08 |
 | Coverage scorecard | Medium | Easy | The scale version, IN BUILD |

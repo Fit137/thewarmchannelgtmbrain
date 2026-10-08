@@ -1,7 +1,7 @@
 # Service status ledger
 
 Governs what may be offered, described or promised. Update this file the moment a status changes, before any copy follows. Renamed from feature-status because a services business ships capabilities, not features.
-last_reviewed: 2026-10-07
+last_reviewed: 2026-10-08
 
 ## Legend
 
@@ -49,6 +49,8 @@ last_reviewed: 2026-10-07
 - Partnership brief, co-hosted event proposal: IN BUILD. Partner set follows D8, D15.
 - Observer invitation, guest invitation: IN BUILD as templates. Sending is BLOCKED, D5.
 - Website and domain: IN BUILD. Domain `{TBD}`.
+- Prospect channel strategy, free, for a named priority prospect that passes the gate, built from public information with the `prospect-channel-strategy` skill: READY as method. Two to four founder days per strategy. Never sent to anyone yet.
+- Prospect strategy deck in the prospect's own branding, built with the `prospect-deck-builder` skill: READY. Engine and checks built and tested on a fictional example only. Sent privately, never published, never reused.
 
 ## Supply and channels
 

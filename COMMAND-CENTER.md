@@ -52,6 +52,7 @@ Full queue with defaults: `ops/decisions.md`. Briefs: `templates/decision-brief.
 - [ ] D8 confirmed. D14 guest ICP and D15 partner set drafted. First partnership conversation booked.
 - [ ] D16: founder approves or rejects the nineteen landing page fixes. Calculator defaults removed.
 - [ ] Weekly founder posts across the archetypes. Five coverage reads offered to in-ICP prospects.
+- [ ] First prospect strategy: one gated GO, built and checked with `prospect-channel-strategy` and `prospect-deck-builder`, sent once, logged by ID.
 - [ ] Composition report format designed. Measurement read-out format designed.
 - [ ] First monthly snapshot, 2026-11-02.
 
@@ -76,6 +77,7 @@ Full queue with defaults: `ops/decisions.md`. Briefs: `templates/decision-brief.
 | Channel strategy, the coverage read, audience research, programme design | Guest and demonstration outreach, D5 |
 | Founder posts, low-volume prospect approaches, discovery calls | Post-event conversion, D11 |
 | Partnership conversations | The promise, D4. Pricing, D2 and D10. Scope and invoicing, D1 |
+| A free channel strategy and branded deck for a gated priority prospect, with the two prospect skills | Approaching guests on the prospect's behalf, D5. After the evening, D11 |
 | The ROI calculator logic, the landing page draft, internally | Publishing the page, D16, D11, D13 |
 
 Full ledger: `rules/service-status.md`.

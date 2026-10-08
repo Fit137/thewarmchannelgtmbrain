@@ -33,6 +33,9 @@ In: founder LinkedIn posts, one researched approach per prospect, discovery call
 - Nothing from the healthcare guest list.
 - No personal data in this repository.
 
+## Prospect strategies
+A free channel strategy and branded deck for a gated prospect are built with `.claude/skills/prospect-channel-strategy` and `.claude/skills/prospect-deck-builder`. Their workspaces live outside this repository. Everything above applies to them, with the claim envelope as the check.
+
 ## Before shipping
 Run `ops/QA-checklist.md`. For guest copy, run `python3 scripts/lint_claims.py`.
 

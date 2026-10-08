@@ -18,6 +18,14 @@ If the trigger and the relevance line cannot be filled, do not send. Research mo
 4. **The offer.** The free coverage read on their named accounts. Nothing else.
 5. **Sign-off.** The founder's name. Sender identified as the law requires.
 
+## Variant, the prepared strategy
+
+For a named priority prospect that passed the gate and has a checked deck, per `reference/lead-magnets.md` section 4. Under 120 words, the same five parts, with the offer replaced:
+
+4. **The offer.** The strategy itself, already built: "I put together an in-person channel strategy for [Company], from public information only: your event year mapped, and rebuilt around the accounts you sell to. It is yours, whether or not we ever work together." Then the private link, and one line: thirty minutes with their numbers, if useful.
+
+Send the send build only, as a private noindex link. Never an HTML attachment, and for a security buyer attach nothing at all. No tracking of any kind. Time it so the anchor moment is at least eight weeks away. Every number about their business stays blank for them to fill in.
+
 ## Never
 - A second message if they do not reply. One approach, then stop.
 - A sequence, a merge field doing the personalising, or a template sent to many.

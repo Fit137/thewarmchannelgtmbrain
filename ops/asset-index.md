@@ -54,6 +54,17 @@ Every artifact this brain distils. Originals copied verbatim to `sources/raw/war
 | Surface | Location | Live since | Claims carried | Last reviewed |
 |---|---|---|---|---|
 
+## Private surfaces, sent to one company
+
+Prospect strategy decks are private: one company, one person, never published. They are not listed here by company. Each lives in its prospect workspace outside this repository, logged there with the date sent, the version, the link path and the take-down date, and in `ops/pipeline.md` by ID. The method and the engine:
+
+| Asset | Where | Status | Checks |
+|---|---|---|---|
+| Prospect channel strategy method | `.claude/skills/prospect-channel-strategy/` | READY as method, never sent | `validate_strategy.py`, `evidence_check.py`, the claim envelope |
+| Prospect deck engine | `.claude/skills/prospect-deck-builder/` | READY, tested on a fictional example only | `deck_check.py`, `contrast.py`, `screenshot.py` |
+
+**Sent so far: none, as of 2026-10-08.**
+
 ## Adapters and doors
 | Door | Where | Who uses it | Kept current by |
 |---|---|---|---|

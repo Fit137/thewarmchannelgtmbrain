@@ -31,6 +31,21 @@ What was decided, when, and why, so settled strategy is never relitigated, and w
 
 ---
 
+## 2026-10-08 A free channel strategy and a branded deck for qualified prospects (DECIDED, guardrails are build interpretations the founder may overturn)
+**Decided by the founder, 2026-10-08:** when a highly qualified company is found, The Warm Channel builds its in-person channel strategy and shares it with that company in its own branding, as free value for a high-value lead. Two steps: the strategy, then the strategy packaged as an interactive deck that shows the value, the return, the plan and why to consider the channel. Built as two vendored skills, `.claude/skills/prospect-channel-strategy` and `.claude/skills/prospect-deck-builder`.
+**Guardrails, written into the skills as build interpretations:**
+1. A gate before any research, on the five characteristics in `reference/icp-client.md` plus the qualifiers: six criteria scored 0 to 3 on public evidence, GO at 12 of 18 with ACV and event spend at 2 or more and no zero, HOLD from 9, NO-GO below 9 or on any disqualifier, including D6.
+2. Version 1 is built from public information only. The prospect's own numbers enter only in an UPGRADE after a call, recorded as theirs, shown back only to them.
+3. Each prospect has a workspace outside this repository. This brain holds the prospect's ID in `ops/pipeline.md` and nothing else.
+4. Every strategy carries a claim envelope, a dated snapshot of this brain's open decisions, statuses, cleared figures and bans, re-checked before sending.
+5. Every number about the prospect is `{TBD}`. Market figures come only from the cleared ledger rows. No reply rate in any deck that uses the 70% benchmark.
+6. After the evening is described only in the consent framing, designed with the client, not offered until settled, with no hand-over mechanism, until D11.
+7. The prospect's mark appears only as "Prepared for". Proprietary typefaces are substituted with OFL faces. The deck is a single file with no network request and no tracking.
+8. Delivery is one researched approach from the founder to one person, as a private noindex link or a PDF, never an HTML attachment, never published, never reused for another company. No follow-up to a non-reply. Links come down after the anchor moment, a decline, or ninety days.
+9. At most two strategies in flight at once, because each costs two to four founder days.
+**What this does not change:** D2, no price anywhere. D4, no promise. D5, approaching guests stays BLOCKED and says so. D11, both contested promises stay frozen. The proof set stays empty: a strategy sent is a sample of the work, never a result.
+**Downstream:** `rules/service-status.md`, master context sections 3 and 14 to version 1.1, `reference/offer-components.md`, `reference/lead-magnets.md` section 4, `reference/channel-engine.md`, `templates/prospect-approach.md`, `ops/asset-index.md`, `ops/signal-log.md`, `CLAUDE.md`, `AGENTS.md`, `llms.txt`, `COMMAND-CENTER.md`, `README.md`, `.gitignore`, `adapters/portable-control-layer.md` to version 1.1.
+
 ## 2026-10-07 The brain is the source of truth (DECIDED)
 This repository is the go-to-market command center from 2026-10-07. The `warmchannelgtmbuild` repository becomes the workshop and archive: its markdown is copied verbatim into `sources/raw/` at commit 1aac76e and its rendered files stay there. New work starts here.
 **What this does not change:** any decision below. The build repository's files remain valid evidence of what was researched.

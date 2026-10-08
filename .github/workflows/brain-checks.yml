@@ -22,3 +22,21 @@ jobs:
         run: python3 scripts/lint_claims.py .
       - name: Brain audit
         run: python3 scripts/audit_brain.py . --quiet
+      - name: Prospect skills self-test
+        # The two prospect skills, run end to end on their fictional example:
+        # gate, evidence, strategy validation, scaffold, build, spec, contrast and
+        # the pre-send check. A red run means a skill no longer obeys this brain.
+        run: |
+          S=.claude/skills
+          C=$S/prospect-channel-strategy
+          D=$S/prospect-deck-builder
+          python3 $C/scripts/claim_envelope.py --out /tmp/envelope.md
+          python3 $C/scripts/gate.py --from $C/assets/example/strategy.json
+          python3 $C/scripts/evidence_check.py $C/assets/example/evidence-register.md --mode BUILD --max-age 100000
+          python3 $C/scripts/validate_strategy.py $C/assets/example/strategy.json --register $C/assets/example/evidence-register.md
+          python3 $D/scripts/new_deck.py $C/assets/example/strategy.json --out /tmp/scaffold.json
+          python3 $D/scripts/contrast.py $D/assets/example/brand.json
+          python3 $D/scripts/render_spec.py $D/assets/example/deck.json $D/assets/example/brand.json --out /tmp/spec
+          python3 $D/scripts/build_deck.py $D/assets/example/deck.json $D/assets/example/brand.json --out /tmp/acme_send.html
+          python3 $D/scripts/build_deck.py $D/assets/example/deck.json $D/assets/example/brand.json --out /tmp/acme_present.html --audience present
+          python3 $D/scripts/deck_check.py /tmp/acme_send.html --deck $D/assets/example/deck.json --register $C/assets/example/evidence-register.md --design /tmp/spec/02-design-concepts.md --brand $D/assets/example/brand.json --quiet

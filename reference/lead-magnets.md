@@ -46,6 +46,18 @@ The self-assessment version, for ScoreApp. The 2026-09-18 "Room Readiness Scorec
 
 **Consent**: completing it with an email is express consent, the cleanest position available. **The four-email sequence cannot go live without a mailing address, so it waits on D1.** Email 1 result and arithmetic, email 2 the confirmation arithmetic, email 3 coverage against access, email 4 a final note that offers the read once more and stops. No email contains a case study, testimonial, named client, figure of ours or the founder's record.
 
+## 4. The prospect channel strategy and its branded deck, READY as method
+
+Decided 2026-10-08. The event portfolio teardown taken all the way: for one named priority prospect, its own in-person year mapped from public information and rebuilt as a channel around its named accounts, then packaged as an interactive deck in its own branding. Built with the skills `.claude/skills/prospect-channel-strategy` and `.claude/skills/prospect-deck-builder`.
+
+- **Who gets one**: a company that passes the gate: six criteria from `reference/icp-client.md` scored 0 to 3 on public evidence, GO at 12 of 18 with ACV and event spend at 2 or more. Never more than two in flight.
+- **What it contains**: the event footprint scored for buyer density and access, the anchor moment, the committee and account tiers, one decision per moment, formats and a twelve-month calendar, live questions and a sample invitation, the confirmation arithmetic, the economics with a calculator the prospect fills in, and three ways to run it, one of which is us.
+- **What it never contains**: a number about the prospect that the prospect did not supply, a grade C figure, a reply rate beside the 70% benchmark, a price, a promise, a client, or a described hand-over after the evening.
+- **Cost**: two to four founder days per strategy. That cost is why the gate exists.
+- **Delivery**: one researched approach from the founder to one person, as a private noindex link or a PDF. Never published, never reused for another company, never followed up after a non-reply.
+- **Where it leads**: a call with their numbers, the full coverage read on their list, and version 2 of the strategy, built on what they supplied.
+- **Privacy**: each prospect's workspace lives outside this repository. This brain holds the prospect's ID in `ops/pipeline.md` and nothing else.
+
 ## Rejected for every magnet
 
 Anything that promises a lead count, a meeting count or a named attendee, or that collects anything about the guest side.

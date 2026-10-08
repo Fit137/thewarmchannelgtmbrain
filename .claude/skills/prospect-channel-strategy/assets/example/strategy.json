@@ -1,0 +1,752 @@
+{
+  "schema": "twc.prospect-strategy/1",
+  "fictional": "Acme Example Co. is invented. Every fact about Acme here, and every row in the evidence register about Acme, is made up to show the shape of a real strategy. The market figures are real and come from the brain's evidence ledger. Never reuse a sentence about Acme for a real company.",
+  "prospect": {
+    "id": "PX-0000",
+    "company": "Acme Example Co.",
+    "short_name": "Acme",
+    "slug": "acme",
+    "website": "https://acme.example",
+    "what_they_sell": "Identity security software for large regulated enterprises",
+    "who_they_sell_to": "Security leaders at regulated enterprises: the CISO, the head of identity, security architects and risk leads",
+    "acv_band": "Six figures, inferred from public case studies",
+    "segment": "Enterprise cybersecurity",
+    "home_market": "North America",
+    "lang": "en-CA",
+    "currency": "$",
+    "evidence": [
+      "E01",
+      "E02",
+      "E09"
+    ]
+  },
+  "version": "v1",
+  "mode": "BUILD",
+  "date": "2026-10-07",
+  "basis": "Public information only. No CRM, budget or account list seen.",
+  "envelope": {
+    "generated": "2026-10-07",
+    "brain_commit": "9fe85fe",
+    "path": "evidence/envelope.md",
+    "open_decisions": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D7",
+      "D8",
+      "D9",
+      "D10",
+      "D11",
+      "D12",
+      "D13",
+      "D14",
+      "D15",
+      "D16",
+      "D17"
+    ]
+  },
+  "gate": {
+    "verdict": "GO",
+    "total": 12,
+    "scores": {
+      "acv": 2,
+      "event_spend": 3,
+      "unreachable": 2,
+      "warm": 2,
+      "converts": 1,
+      "owner": 2
+    },
+    "disqualifiers": [],
+    "notes": "Event spend is direct public evidence: a booth, a sponsorship, breakfasts and an own conference. ACV is an inference from case studies, held at 2 until a call confirms it. Characteristic 5 is unknown from outside, which is normal."
+  },
+  "thesis": {
+    "kicker": "In-person channel strategy, version 1",
+    "headline": "Acme already meets its buyers in person. This is how to run those moments as a channel.",
+    "standfirst": "A strategy built from the outside, from public information only, for the team that owns Acme's events and pipeline. Six short decks, about twenty minutes in all. Every number about your business is left for you to fill in.",
+    "carrying_line": "Keep the moments you already fund. Add private tables for your named accounts around them. Follow through with the guests who choose to continue.",
+    "one_paragraph": "Acme funds a real in-person year: a SecureCon booth, an Identity Summit sponsorship, Security Forum breakfasts and its own customer conference. Its buyers are densest at SecureCon, where its access to them is thinnest. The plan keeps every moment Acme already funds and adds small private tables for named accounts around them, filled by individual approaches over six weeks, with the conversation continuing only with guests who choose it. The economics are left for Acme to run on its own numbers."
+  },
+  "account": {
+    "summary": "Acme sells identity security software to large regulated enterprises. Its public case studies name the CISO and the head of identity as the people who chose it, and its careers page measures field marketing on pipeline from named accounts.",
+    "facts": [
+      {
+        "text": "Sells identity security software to large regulated enterprises",
+        "evidence": [
+          "E01"
+        ]
+      },
+      {
+        "text": "Case studies name the CISO and the head of identity as the buyers",
+        "evidence": [
+          "E02"
+        ]
+      },
+      {
+        "text": "A field marketing role is measured on pipeline from named accounts",
+        "evidence": [
+          "E08"
+        ]
+      },
+      {
+        "text": "Deals are six figures, by inference from enterprise-wide rollouts in the case studies",
+        "evidence": [
+          "E09"
+        ]
+      }
+    ],
+    "priorities": [
+      "Machine identity governance, the subject of its last four blog posts",
+      "Expansion within existing enterprise customers"
+    ],
+    "priorities_evidence": [
+      "E11"
+    ]
+  },
+  "footprint": {
+    "window": "January to December 2026",
+    "start_month": 1,
+    "moments": [
+      {
+        "id": "M1",
+        "name": "Security Forum breakfast",
+        "kind": "industry breakfast series",
+        "role": "sponsor",
+        "month": 2,
+        "week": 2,
+        "today": "Attendee seats",
+        "density": 5.4,
+        "access": 4.6,
+        "evidence": [
+          "E06"
+        ],
+        "map_label": "Security Forum breakfasts"
+      },
+      {
+        "id": "M2",
+        "name": "SecureCon",
+        "kind": "trade show",
+        "role": "exhibitor",
+        "month": 4,
+        "week": 4,
+        "today": "Booth",
+        "density": 14.2,
+        "access": -7.4,
+        "evidence": [
+          "E03"
+        ],
+        "anchor": true,
+        "map_label": "SecureCon booth"
+      },
+      {
+        "id": "M3",
+        "name": "Identity Summit",
+        "kind": "industry conference",
+        "role": "sponsor",
+        "month": 6,
+        "week": 2,
+        "today": "Sponsorship",
+        "density": 8.6,
+        "access": -2.3,
+        "evidence": [
+          "E04"
+        ]
+      },
+      {
+        "id": "M4",
+        "name": "Partner roadshow",
+        "kind": "partner roadshow",
+        "role": "co-host",
+        "month": 9,
+        "week": 3,
+        "today": "Co-hosted sessions",
+        "density": -3.8,
+        "access": 3.2,
+        "evidence": [
+          "E07"
+        ],
+        "label_pos": "left"
+      },
+      {
+        "id": "M5",
+        "name": "Acme Connect",
+        "kind": "own customer conference",
+        "role": "host",
+        "month": 10,
+        "week": 2,
+        "today": "Your conference",
+        "density": -6.1,
+        "access": 11.8,
+        "evidence": [
+          "E05"
+        ]
+      },
+      {
+        "id": "M6",
+        "name": "Security Forum breakfast",
+        "kind": "industry breakfast series",
+        "role": "sponsor",
+        "month": 11,
+        "week": 3,
+        "today": "Attendee seats",
+        "density": 5.4,
+        "access": 4.6,
+        "evidence": [
+          "E06"
+        ],
+        "same_as": "M1"
+      }
+    ],
+    "quadrant": {
+      "x_label": "New buyers in the room",
+      "y_label": "Time across a table",
+      "names": [
+        "Build on",
+        "Keep for customers",
+        "Reconsider",
+        "Wrap with a private programme"
+      ],
+      "range": [
+        -20,
+        20
+      ],
+      "basis": "Positions are our reading of public information, not measurement. New buyers means people in your segment who are not yet customers.",
+      "title": "Your buyers are densest where your access is thinnest"
+    },
+    "anchor_line": "Your buyers will be at SecureCon. The booth is not where you get time with them.",
+    "anchor_body": "A private table during the same week reaches the same people, on your terms, without asking them to cross a show floor.",
+    "chapter": {
+      "cover_title": "Your buyers already meet you in person. The year is not yet built around them.",
+      "cover_subtitle": "A read of Acme's public event calendar, from the outside.",
+      "claim": "You already fund an in-person year. It is not yet built around your buyers.",
+      "so_what": "The budget and the belief are already in place, so this is a change of method, not a new spend.",
+      "evidence": [
+        "Five public moments a year put Acme in the same building as its buyers.",
+        "Invite-only executive dinners attend at 70% of registered, vendor-owned conferences at 19% [1]."
+      ],
+      "carry": "If the buyers are already in the building, the question is who gets time with them.",
+      "close_title": "You already fund the hardest part: being where your buyers are.",
+      "close_body": "The rest of this file shows how to turn that presence into conversations with the accounts you named."
+    },
+    "timeline_title": "Five moments a year put Acme in the same building as its buyers"
+  },
+  "buyers": {
+    "committee": [
+      {
+        "role": "The CISO",
+        "line": "Signs. Comes for a question that is live across the sector, never for a product.",
+        "evidence": [
+          "E02"
+        ]
+      },
+      {
+        "role": "The head of identity",
+        "line": "Owns the problem. Comes to hear how three peers solved it.",
+        "evidence": [
+          "E02"
+        ]
+      },
+      {
+        "role": "The security architect",
+        "line": "Evaluates. Comes when the room is practitioners, not vendors.",
+        "evidence": [
+          "E10"
+        ]
+      },
+      {
+        "role": "The risk lead",
+        "line": "Weighs exposure. Comes when the question touches audit or regulation.",
+        "evidence": [
+          "E10"
+        ]
+      }
+    ],
+    "tiers": [
+      {
+        "tier": "Tier 1",
+        "who": "Large regulated enterprises with identity programmes under review",
+        "accounts": "{TBD}",
+        "room_for": "First conversations with the committee"
+      },
+      {
+        "tier": "Tier 2",
+        "who": "Mid-size enterprises expanding cloud identity",
+        "accounts": "{TBD}",
+        "room_for": "Peer tables on a live question"
+      },
+      {
+        "tier": "Expansion",
+        "who": "Current customers with room to grow",
+        "accounts": "{TBD}",
+        "room_for": "A customer table, separate from prospects"
+      }
+    ],
+    "list_note": "Account counts are left blank on purpose. A full coverage read on your named list fills them in.",
+    "chapter": {
+      "cover_title": "Four or five people decide an Acme deal. They are the room.",
+      "cover_subtitle": "Who your buyers are, why cold channels miss them, and where they already gather.",
+      "claim": "Four or five people decide an Acme deal. They are the room.",
+      "so_what": "The channel starts from your named accounts and the committee inside each one, not from a rented audience.",
+      "evidence": [
+        "Cold approaches reach each member of the committee alone. A table reaches several of them around one question.",
+        "How many of your named accounts can be assembled is {TBD} until we read your list."
+      ],
+      "carry": "Once you know who must be there, the calendar can be built around them.",
+      "close_title": "Four or five people per account, and a list that tells us who they are.",
+      "close_body": "With the people defined, the calendar can be built around them."
+    }
+  },
+  "landscape": {
+    "summary": "Two named competitors host their own customer events. Neither runs small prospect tables around SecureCon on public record.",
+    "rows": [
+      {
+        "who": "Competitor A, fictional",
+        "in_person": "Annual customer conference, a SecureCon booth",
+        "evidence": [
+          "E12"
+        ]
+      },
+      {
+        "who": "Competitor B, fictional",
+        "in_person": "A sponsored reception at Identity Summit",
+        "evidence": [
+          "E13"
+        ]
+      }
+    ],
+    "white_space": "Small, private, question-led tables for prospect committees during show week.",
+    "use_in_deck": false
+  },
+  "channel": {
+    "choices": [
+      {
+        "moment": "M2",
+        "today": "Booth",
+        "recommendation": "Keep, and wrap with two private tables that week"
+      },
+      {
+        "moment": "M3",
+        "today": "Sponsorship",
+        "recommendation": "Keep, and host one table the evening before"
+      },
+      {
+        "moment": "M1",
+        "today": "Attendee seats",
+        "recommendation": "Redirect the budget into your own tables"
+      },
+      {
+        "moment": "M5",
+        "today": "Your conference",
+        "recommendation": "Keep for customers, add an expansion table"
+      },
+      {
+        "moment": "M4",
+        "today": "Co-hosted sessions",
+        "recommendation": "Keep for partners. No change"
+      }
+    ],
+    "formats": [
+      {
+        "name": "Show-week tables",
+        "line": "Small private tables during SecureCon and Identity Summit, for Tier 1 committees already in town.",
+        "fits": [
+          "M2",
+          "M3"
+        ]
+      },
+      {
+        "name": "Metro tables",
+        "line": "One table a quarter in each of the three metros where Tier 1 accounts cluster.",
+        "fits": [],
+        "evidence": [
+          "E10"
+        ]
+      },
+      {
+        "name": "An expansion table",
+        "line": "At Acme Connect, for customers with room to grow, kept apart from prospects.",
+        "fits": [
+          "M5"
+        ]
+      }
+    ],
+    "calendar": [
+      {
+        "label": "Metro table",
+        "month": 2,
+        "week": 4
+      },
+      {
+        "label": "SecureCon tables",
+        "month": 4,
+        "week": 4,
+        "around": "M2"
+      },
+      {
+        "label": "Summit eve table",
+        "month": 6,
+        "week": 1,
+        "around": "M3"
+      },
+      {
+        "label": "Metro table",
+        "month": 9,
+        "week": 2
+      },
+      {
+        "label": "Expansion table",
+        "month": 10,
+        "week": 2,
+        "around": "M5"
+      }
+    ],
+    "keep_on_calendar": [
+      "M2",
+      "M3",
+      "M5"
+    ],
+    "window_weeks": 6,
+    "calendar_note": "Placements are a proposal. Late summer and the weeks around year-end are avoided where possible.",
+    "chapter": {
+      "cover_title": "One budget, run as a channel.",
+      "cover_subtitle": "Keep the moments you fund. Add the conversations around them.",
+      "claim": "The plan keeps every moment you fund and adds the conversations around it.",
+      "so_what": "Nothing you rely on is cut. The budget is redirected toward the accounts you named.",
+      "evidence": [
+        "Private tables during SecureCon week, where your buyers already are.",
+        "Quarterly tables in the three metros where your Tier 1 accounts cluster."
+      ],
+      "carry": "A plan is only as good as the number of the right people who actually arrive.",
+      "close_title": "One budget, run as a channel, with the conversations built in.",
+      "close_body": "Next: how a table actually fills, and what happens after the evening."
+    }
+  },
+  "questions": [
+    {
+      "label": "Machine identities",
+      "question": "How are you governing identities that now outnumber your people?",
+      "for": "The CISO and the head of identity",
+      "why_live": "Three sessions on machine identity governance on the Identity Summit 2026 agenda",
+      "evidence": [
+        "E14"
+      ]
+    },
+    {
+      "label": "Recovery",
+      "question": "What did your last identity incident teach you about time to recover?",
+      "for": "The head of identity and the risk lead",
+      "why_live": "Incident recovery is a recurring theme in the sector's public conference programmes",
+      "evidence": [
+        "E15"
+      ]
+    },
+    {
+      "label": "Budget",
+      "question": "Where does identity sit in the zero trust budget this year?",
+      "for": "The CISO",
+      "why_live": "To be verified before use",
+      "evidence": []
+    }
+  ],
+  "questions_note": "Each question would be verified as live before any invitation goes out. The host never chooses the question.",
+  "invitation": {
+    "subject": "One question, one evening",
+    "body": "How are you governing machine identities, now that they outnumber your people?\n\nI am putting a small number of security leaders who are working on it around one table. No vendors other than the host, and no consultants.\n\nThe host is paying for the evening. They did not choose the question, and they are not presenting on it.\n\nNo deck, no panel, no stage time. No attendee list is circulated, before or after.\n\nReply yes or no. Either is a fine answer.",
+    "note": "A sample in the language your guests would read. It never describes them as a target. Your guests are treated as guests."
+  },
+  "operating": {
+    "arithmetic": {
+      "seats": 12,
+      "formats": [
+        {
+          "label": "Invite-only executive dinner",
+          "rate": 0.7,
+          "ledger": "11"
+        },
+        {
+          "label": "VIP or sport hospitality",
+          "rate": 0.86,
+          "ledger": "12"
+        },
+        {
+          "label": "Vendor-owned conference",
+          "rate": 0.19,
+          "ledger": "12"
+        }
+      ],
+      "source_n": 1,
+      "approached": "{TBD}",
+      "approached_label": "people approached, set by the coverage read on your list",
+      "note": "Attendance rates are the Clutch Events category benchmark, not our performance."
+    },
+    "six_weeks": [
+      {
+        "label": "Weeks 6 to 4",
+        "line": "Research each named person and approach once, with the question in the first line.",
+        "result": "Approaches made"
+      },
+      {
+        "label": "Weeks 4 to 1",
+        "line": "Confirm, and tell everyone honestly who else is coming, by role.",
+        "result": "Confirmations against target"
+      },
+      {
+        "label": "The week",
+        "line": "Reconfirm close to the date. Update anyone if the room changed.",
+        "result": "Arrivals against confirmations"
+      }
+    ],
+    "after": {
+      "title": "After the evening, the conversation continues with the people who choose to continue it",
+      "body": "After the evening, the conversation continues only with guests who choose it, and nobody is chased. How that step works is designed with you, and it is not offered until that design is settled."
+    },
+    "measures": [
+      {
+        "measure": "Named-account coverage",
+        "counts": "Named accounts with a senior person at a table",
+        "target": "{TBD}"
+      },
+      {
+        "measure": "Arrived against confirmed",
+        "counts": "Arrivals over confirmations, per table",
+        "target": "{TBD}"
+      },
+      {
+        "measure": "Qualified conversations",
+        "counts": "Conversations that continue after the evening, with guests who chose it",
+        "target": "{TBD}"
+      },
+      {
+        "measure": "Opportunities opened",
+        "counts": "From those conversations, in your CRM",
+        "target": "{TBD}"
+      }
+    ],
+    "measures_note": "The report format is in development. Targets are set with you, from your own numbers.",
+    "chapter": {
+      "cover_title": "A room fills by arithmetic. The conversation continues by consent.",
+      "cover_subtitle": "The confirmation maths, the six-week window, the evening, and the step after it.",
+      "claim": "A room fills by arithmetic, and the conversation continues by consent.",
+      "so_what": "Twelve seats needs about seventeen confirmations at the dinner benchmark, and that is weeks of individual work.",
+      "evidence": [
+        "Attendance depends on format: 86% for VIP and sport hospitality, 70% for executive dinners, 19% for vendor-owned conferences [1].",
+        "Follow-through runs only with guests who choose to continue."
+      ],
+      "carry": "The work is real. The next question is whether it pays.",
+      "close_title": "Arithmetic fills the room. Consent keeps it full next time.",
+      "close_body": "Next: whether the economics work on your numbers."
+    }
+  },
+  "economics": {
+    "budget_line": {
+      "value": "40.8%",
+      "caption": "of exhibitor marketing budgets goes to trade show exhibiting, the largest single line",
+      "source_n": 2,
+      "ledger": "new"
+    },
+    "scan_cost": {
+      "theirs_label": "badge scans from your last SecureCon",
+      "benchmark": "$112 to $300",
+      "benchmark_label": "cost per scan, the industry benchmark",
+      "source_n": 3,
+      "ledger": "5",
+      "cost_label": "what those scans cost you, from your own budget",
+      "note": "We do not estimate your spend. Your own number outranks any benchmark."
+    },
+    "options": {
+      "columns": [
+        "A booth only",
+        "A field marketing hire",
+        "Run it as a channel"
+      ],
+      "highlight": 2,
+      "rows": [
+        {
+          "label": "What you get",
+          "cells": [
+            "Floor space and scans",
+            "Capacity, split across many jobs",
+            "Conversations with named accounts"
+          ]
+        },
+        {
+          "label": "Who fills the room",
+          "cells": [
+            "Whoever walks past",
+            "The hire, around other work",
+            "Six weeks of individual approaches"
+          ]
+        },
+        {
+          "label": "After the event",
+          "cells": [
+            "It ends",
+            "It usually ends",
+            "Follow-through with guests who choose to continue"
+          ]
+        },
+        {
+          "label": "Reported in",
+          "cells": [
+            "Scans",
+            "Activity",
+            "Coverage and opportunities"
+          ]
+        }
+      ]
+    },
+    "calculator": {
+      "inputs": [
+        "deal",
+        "close",
+        "investment",
+        "conversations",
+        "cac",
+        "meeting"
+      ],
+      "currency": "$",
+      "intro": "Every number is yours. We do not supply a close rate, because we do not know yours."
+    },
+    "chapter": {
+      "cover_title": "The money is already being spent. The question is what it buys.",
+      "cover_subtitle": "The budget share, the cost of the problem, three ways to spend it, and a calculator that runs on your numbers.",
+      "claim": "The money is already being spent. The question is what it buys.",
+      "so_what": "You can test the economics on your own numbers in the calculator. We do not supply a single conversion figure.",
+      "evidence": [
+        "Trade show exhibiting is 40.8% of exhibitor marketing budgets, the largest single line [2].",
+        "A badge scan costs $112 to $300 [3]."
+      ],
+      "carry": "If the arithmetic works, the last question is who runs it.",
+      "close_title": "Same budget. Different question: not what it costs, but what it buys.",
+      "close_body": "Next: who runs it."
+    }
+  },
+  "engagement": {
+    "options": {
+      "columns": [
+        "In-house, with this plan",
+        "With The Warm Channel",
+        "A mix of both"
+      ],
+      "highlight": 1,
+      "rows": [
+        {
+          "label": "Who plans",
+          "cells": [
+            "Your team, from this file",
+            "We do, with your team",
+            "We do"
+          ]
+        },
+        {
+          "label": "Who approaches guests",
+          "cells": [
+            "Your team, around other work",
+            "We do, once our privacy position is written",
+            "We do for Tier 1, on the same condition"
+          ]
+        },
+        {
+          "label": "Who follows through",
+          "cells": [
+            "Your sellers",
+            "Designed with you before anything starts",
+            "The same"
+          ]
+        },
+        {
+          "label": "What you keep",
+          "cells": [
+            "Everything",
+            "The host position and every account relationship",
+            "The same"
+          ]
+        }
+      ]
+    },
+    "steps": [
+      {
+        "label": "Plan",
+        "line": "The channel around your account list: which moments, which formats, which accounts.",
+        "status": null,
+        "result": "You know what the year can deliver against your real list before you spend"
+      },
+      {
+        "label": "Fill",
+        "line": "Individual approaches to the people you named, over six weeks per table.",
+        "status": "Opens once our privacy position is written",
+        "result": "Every invitation goes to someone on your list"
+      },
+      {
+        "label": "Follow through",
+        "line": "What happens after the evening, for the guests who choose to continue, designed with you.",
+        "status": "Not offered until that design is settled",
+        "result": "Agreed in writing before the first invitation"
+      }
+    ],
+    "honesty_line": "We are new. No case study yet, and we are not going to dress that up.",
+    "next_step": {
+      "headline": "The next step is one call",
+      "body": "Thirty minutes to walk through this with your numbers, and to agree whether a full coverage read on your named account list is worth doing. Nothing changes hands before a written scope.",
+      "slide_title": "The next step is one call, with your numbers.",
+      "slide_body": "Bring your named account list if you want the full coverage read. Written scope agreed before anything starts."
+    },
+    "cta": {
+      "label": "Book a call",
+      "href": "mailto:founder@thewarmchannel.example?subject=Acme%20channel%20strategy"
+    },
+    "chapter": {
+      "cover_title": "Three ways to run this. One of them is us.",
+      "cover_subtitle": "The plan is yours either way.",
+      "claim": "You can run this yourselves. We would like to run it with you.",
+      "so_what": "The plan is yours either way. The difference is who carries six weeks of outreach per moment.",
+      "evidence": [
+        "We are new. No case study yet, and we are not going to dress that up.",
+        "Written scope agreed before anything starts."
+      ],
+      "carry": "The next step is one call with your numbers.",
+      "close_title": "Your buyers already meet you in person. Now the year can be built around them.",
+      "close_body": "Thank you for reading."
+    }
+  },
+  "method": "Built from public information only: Acme's own pages, published event programmes and published industry research. We have not seen your CRM, your budget or your account list, so every number about your business is yours to fill in. Positions on the map in deck A are our reading of public information, not measurement.\n\nThis example company is fictional. It exists to show the shape of a real strategy deck.",
+  "sources": [
+    {
+      "n": 1,
+      "text": "Clutch Events attendance benchmark: 13,155 registrations across 191 invite-only, free-to-attend executive B2B events, 2025 to early 2026",
+      "kind": "industry benchmark, published dataset",
+      "url": "https://report.clutchevents.co",
+      "ledger": "11, 12"
+    },
+    {
+      "n": 2,
+      "text": "CEIR 2026 Marketing Spend Decision Report",
+      "kind": "industry research",
+      "ledger": "new"
+    },
+    {
+      "n": 3,
+      "text": "CEIR, trade show cost per lead benchmark",
+      "kind": "industry research",
+      "ledger": "5"
+    }
+  ],
+  "before_you_send": {
+    "verified": [
+      "Clutch Events attendance figures, evidence ledger rows 11 and 12, grade B plus.",
+      "CEIR 40.8% budget share and $112 to $300 per scan, ledger, grade B.",
+      "No reply rate appears anywhere in this file, because the 70% attendance benchmark does. Do-not-say, speech rule, and ledger rule 3."
+    ],
+    "needs_settling": [
+      "The call to action address. The mailto here is a placeholder domain.",
+      "Founder approval of the calculator copy adapted from the approved landing page calculator."
+    ],
+    "designed_not_supplied": [
+      "Every fact about Acme. The company is fictional.",
+      "Quadrant positions. Our reading of public information, not measurement.",
+      "Seat counts per format. Designed to show the arithmetic, never a promise.",
+      "The motif's mark count. Not data. Never labelled."
+    ]
+  }
+}

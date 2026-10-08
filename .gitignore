@@ -1,3 +1,6 @@
 __pycache__/
 *.pyc
 .DS_Store
+# Prospect workspaces never live in the brain. These catch a mistaken path.
+prospects/
+twc-prospects/

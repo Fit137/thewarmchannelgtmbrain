@@ -1,0 +1,473 @@
+{
+  "schema": "twc.prospect-strategy/1",
+  "prospect": {
+    "id": "",
+    "company": "",
+    "short_name": "",
+    "slug": "",
+    "website": "",
+    "what_they_sell": "",
+    "who_they_sell_to": "",
+    "acv_band": "",
+    "segment": "",
+    "home_market": "",
+    "lang": "en-CA",
+    "currency": "$",
+    "evidence": []
+  },
+  "version": "v1",
+  "mode": "BUILD",
+  "date": "",
+  "basis": "",
+  "envelope": {
+    "generated": "",
+    "brain_commit": "",
+    "path": "evidence/envelope.md",
+    "open_decisions": []
+  },
+  "gate": {
+    "verdict": "",
+    "total": 0,
+    "scores": {
+      "acv": 0,
+      "event_spend": 0,
+      "unreachable": 0,
+      "warm": 0,
+      "converts": 0,
+      "owner": 0
+    },
+    "disqualifiers": [],
+    "notes": ""
+  },
+  "thesis": {
+    "kicker": "",
+    "headline": "",
+    "standfirst": "",
+    "carrying_line": "",
+    "one_paragraph": ""
+  },
+  "account": {
+    "summary": "",
+    "facts": [
+      {
+        "text": "",
+        "evidence": []
+      }
+    ],
+    "priorities": [],
+    "priorities_evidence": []
+  },
+  "footprint": {
+    "window": "",
+    "start_month": 1,
+    "moments": [
+      {
+        "id": "M1",
+        "name": "",
+        "kind": "",
+        "role": "",
+        "month": 1,
+        "week": 2,
+        "today": "",
+        "density": 0.0,
+        "access": 0.0,
+        "evidence": [],
+        "anchor": false,
+        "map_label": ""
+      }
+    ],
+    "quadrant": {
+      "x_label": "New buyers in the room",
+      "y_label": "Time across a table",
+      "names": [
+        "Build on",
+        "Keep for customers",
+        "Reconsider",
+        "Wrap with a private programme"
+      ],
+      "range": [
+        -20,
+        20
+      ],
+      "basis": "Positions are our reading of public information, not measurement. New buyers means people in your segment who are not yet customers.",
+      "title": ""
+    },
+    "anchor_line": "",
+    "anchor_body": "",
+    "chapter": {
+      "cover_title": "",
+      "cover_subtitle": "",
+      "claim": "",
+      "so_what": "",
+      "evidence": [],
+      "carry": "",
+      "close_title": "",
+      "close_body": ""
+    },
+    "timeline_title": ""
+  },
+  "buyers": {
+    "committee": [
+      {
+        "role": "",
+        "line": "",
+        "evidence": []
+      }
+    ],
+    "tiers": [
+      {
+        "tier": "",
+        "who": "",
+        "accounts": "",
+        "room_for": ""
+      }
+    ],
+    "list_note": "Account counts are left blank on purpose. A full coverage read on your named list fills them in.",
+    "chapter": {
+      "cover_title": "",
+      "cover_subtitle": "",
+      "claim": "",
+      "so_what": "",
+      "evidence": [],
+      "carry": "",
+      "close_title": "",
+      "close_body": ""
+    }
+  },
+  "landscape": {
+    "summary": "",
+    "rows": [
+      {
+        "who": "",
+        "in_person": "",
+        "evidence": []
+      }
+    ],
+    "white_space": "",
+    "use_in_deck": false
+  },
+  "channel": {
+    "choices": [
+      {
+        "moment": "",
+        "today": "",
+        "recommendation": ""
+      }
+    ],
+    "formats": [
+      {
+        "name": "",
+        "line": "",
+        "fits": []
+      }
+    ],
+    "calendar": [
+      {
+        "label": "",
+        "month": 0,
+        "week": 0
+      }
+    ],
+    "keep_on_calendar": [],
+    "window_weeks": 6,
+    "calendar_note": "",
+    "chapter": {
+      "cover_title": "",
+      "cover_subtitle": "",
+      "claim": "",
+      "so_what": "",
+      "evidence": [],
+      "carry": "",
+      "close_title": "",
+      "close_body": ""
+    }
+  },
+  "questions": [
+    {
+      "label": "",
+      "question": "",
+      "for": "",
+      "why_live": "",
+      "evidence": []
+    }
+  ],
+  "questions_note": "Each question would be verified as live before any invitation goes out. The host never chooses the question.",
+  "invitation": {
+    "subject": "",
+    "body": "",
+    "note": "A sample in the language your guests would read. It never describes them as a target. Your guests are treated as guests."
+  },
+  "operating": {
+    "arithmetic": {
+      "seats": 12,
+      "formats": [
+        {
+          "label": "Invite-only executive dinner",
+          "rate": 0.7,
+          "ledger": "11"
+        },
+        {
+          "label": "VIP or sport hospitality",
+          "rate": 0.86,
+          "ledger": "12"
+        },
+        {
+          "label": "Vendor-owned conference",
+          "rate": 0.19,
+          "ledger": "12"
+        }
+      ],
+      "source_n": 1,
+      "approached": "{TBD}",
+      "approached_label": "people approached, set by the coverage read on your list",
+      "note": "Attendance rates are the Clutch Events category benchmark, not our performance."
+    },
+    "six_weeks": [
+      {
+        "label": "Weeks 6 to 4",
+        "line": "Research each named person and approach once, with the question in the first line.",
+        "result": "Approaches made"
+      },
+      {
+        "label": "Weeks 4 to 1",
+        "line": "Confirm, and tell everyone honestly who else is coming, by role.",
+        "result": "Confirmations against target"
+      },
+      {
+        "label": "The week",
+        "line": "Reconfirm close to the date. Update anyone if the room changed.",
+        "result": "Arrivals against confirmations"
+      }
+    ],
+    "after": {
+      "title": "After the evening, the conversation continues with the people who choose to continue it",
+      "body": "After the evening, the conversation continues only with guests who choose it, and nobody is chased. How that step works is designed with you, and it is not offered until that design is settled."
+    },
+    "measures": [
+      {
+        "measure": "Named-account coverage",
+        "counts": "Named accounts with a senior person at a table",
+        "target": "{TBD}"
+      },
+      {
+        "measure": "Arrived against confirmed",
+        "counts": "Arrivals over confirmations, per table",
+        "target": "{TBD}"
+      },
+      {
+        "measure": "Qualified conversations",
+        "counts": "Conversations that continue after the evening, with guests who chose it",
+        "target": "{TBD}"
+      },
+      {
+        "measure": "Opportunities opened",
+        "counts": "From those conversations, in your CRM",
+        "target": "{TBD}"
+      }
+    ],
+    "measures_note": "The report format is in development. Targets are set with you, from your own numbers.",
+    "chapter": {
+      "cover_title": "",
+      "cover_subtitle": "",
+      "claim": "",
+      "so_what": "",
+      "evidence": [],
+      "carry": "",
+      "close_title": "",
+      "close_body": ""
+    }
+  },
+  "economics": {
+    "budget_line": {
+      "value": "40.8%",
+      "caption": "of exhibitor marketing budgets goes to trade show exhibiting, the largest single line",
+      "source_n": 2,
+      "ledger": "new"
+    },
+    "scan_cost": {
+      "theirs_label": "badge scans from your last [anchor moment]",
+      "benchmark": "$112 to $300",
+      "benchmark_label": "cost per scan, the industry benchmark",
+      "source_n": 3,
+      "ledger": "5",
+      "cost_label": "what those scans cost you, from your own budget",
+      "note": "We do not estimate your spend. Your own number outranks any benchmark."
+    },
+    "options": {
+      "columns": [
+        "A booth only",
+        "A field marketing hire",
+        "Run it as a channel"
+      ],
+      "highlight": 2,
+      "rows": [
+        {
+          "label": "What you get",
+          "cells": [
+            "Floor space and scans",
+            "Capacity, split across many jobs",
+            "Conversations with named accounts"
+          ]
+        },
+        {
+          "label": "Who fills the room",
+          "cells": [
+            "Whoever walks past",
+            "The hire, around other work",
+            "Six weeks of individual approaches"
+          ]
+        },
+        {
+          "label": "After the event",
+          "cells": [
+            "It ends",
+            "It usually ends",
+            "Follow-through with guests who choose to continue"
+          ]
+        },
+        {
+          "label": "Reported in",
+          "cells": [
+            "Scans",
+            "Activity",
+            "Coverage and opportunities"
+          ]
+        }
+      ]
+    },
+    "calculator": {
+      "inputs": [
+        "deal",
+        "close",
+        "investment",
+        "conversations",
+        "cac",
+        "meeting"
+      ],
+      "currency": "$",
+      "intro": "Every number is yours. We do not supply a close rate, because we do not know yours."
+    },
+    "chapter": {
+      "cover_title": "",
+      "cover_subtitle": "",
+      "claim": "",
+      "so_what": "",
+      "evidence": [],
+      "carry": "",
+      "close_title": "",
+      "close_body": ""
+    }
+  },
+  "engagement": {
+    "options": {
+      "columns": [
+        "In-house, with this plan",
+        "With The Warm Channel",
+        "A mix of both"
+      ],
+      "highlight": 1,
+      "rows": [
+        {
+          "label": "Who plans",
+          "cells": [
+            "Your team, from this file",
+            "We do, with your team",
+            "We do"
+          ]
+        },
+        {
+          "label": "Who approaches guests",
+          "cells": [
+            "Your team, around other work",
+            "We do, once our privacy position is written",
+            "We do for Tier 1, on the same condition"
+          ]
+        },
+        {
+          "label": "Who follows through",
+          "cells": [
+            "Your sellers",
+            "Designed with you before anything starts",
+            "The same"
+          ]
+        },
+        {
+          "label": "What you keep",
+          "cells": [
+            "Everything",
+            "The host position and every account relationship",
+            "The same"
+          ]
+        }
+      ]
+    },
+    "steps": [
+      {
+        "label": "Plan",
+        "line": "The channel around your account list: which moments, which formats, which accounts.",
+        "status": null,
+        "result": "You know what the year can deliver against your real list before you spend"
+      },
+      {
+        "label": "Fill",
+        "line": "Individual approaches to the people you named, over six weeks per table.",
+        "status": "Opens once our privacy position is written",
+        "result": "Every invitation goes to someone on your list"
+      },
+      {
+        "label": "Follow through",
+        "line": "What happens after the evening, for the guests who choose to continue, designed with you.",
+        "status": "Not offered until that design is settled",
+        "result": "Agreed in writing before the first invitation"
+      }
+    ],
+    "honesty_line": "We are new. No case study yet, and we are not going to dress that up.",
+    "next_step": {
+      "headline": "",
+      "body": "",
+      "slide_title": "",
+      "slide_body": ""
+    },
+    "cta": {
+      "label": "Book a call",
+      "href": ""
+    },
+    "chapter": {
+      "cover_title": "",
+      "cover_subtitle": "",
+      "claim": "",
+      "so_what": "",
+      "evidence": [],
+      "carry": "",
+      "close_title": "",
+      "close_body": ""
+    }
+  },
+  "method": "",
+  "sources": [
+    {
+      "n": 1,
+      "text": "Clutch Events attendance benchmark: 13,155 registrations across 191 invite-only, free-to-attend executive B2B events, 2025 to early 2026",
+      "kind": "industry benchmark, published dataset",
+      "url": "https://report.clutchevents.co",
+      "ledger": "11, 12"
+    },
+    {
+      "n": 2,
+      "text": "CEIR 2026 Marketing Spend Decision Report",
+      "kind": "industry research",
+      "ledger": "new"
+    },
+    {
+      "n": 3,
+      "text": "CEIR, trade show cost per lead benchmark",
+      "kind": "industry research",
+      "ledger": "5"
+    }
+  ],
+  "before_you_send": {
+    "verified": [],
+    "needs_settling": [],
+    "designed_not_supplied": []
+  }
+}

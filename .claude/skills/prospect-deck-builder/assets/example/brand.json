@@ -1,0 +1,56 @@
+{
+  "schema": "twc.prospect-brand/1",
+  "company": "Acme Example Co.",
+  "note": "FICTIONAL. Acme Example Co. does not exist. This brand kit shows the shape of a real one and is used to test the engine.",
+  "skin": "prospect",
+  "captured": "2026-10-07",
+  "sources": [
+    {"element": "palette", "from": "Fictional brand, invented for the example", "url": null},
+    {"element": "logo", "from": "Fictional wordmark drawn for the example", "url": null},
+    {"element": "type", "from": "Substitute: Folio Sans, an OFL derivative of Public Sans, stands in for the brand's proprietary face", "url": null}
+  ],
+  "guidelines": {
+    "url": null,
+    "constraints": [
+      "Logo used only to identify the recipient, in the Prepared for line and the top bar",
+      "Logo never recoloured, stretched, animated or placed in a lockup with another mark"
+    ]
+  },
+  "roles": {
+    "surface": "#FFFFFF",
+    "surface_2": "#F2F5F9",
+    "ink": "#0E1B2B",
+    "body": "#2D3B4C",
+    "muted": "#56626F",
+    "rule": "#D7DEE7",
+    "accent": "#0B4FD9",
+    "accent_ink": "#0A3FAE",
+    "on_accent": "#FFFFFF",
+    "positive": "#17803D",
+    "caution": "#8A5A00",
+    "flag": "#B42318"
+  },
+  "fonts": {
+    "display": {
+      "family": "Acme Display Substitute",
+      "weight": 600,
+      "fallback": "system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+      "licence": "OFL 1.1, see fonts/OFL.txt",
+      "substitute_for": "The brand's proprietary display face, which may not be redistributed",
+      "files": [{"path": "fonts/FolioSans-Semibold.woff2", "weight": 600, "style": "normal"}]
+    },
+    "text": {
+      "family": "Acme Text Substitute",
+      "fallback": "system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+      "licence": "OFL 1.1, see fonts/OFL.txt",
+      "substitute_for": "The brand's proprietary text face",
+      "files": [
+        {"path": "fonts/FolioSans-Regular.woff2", "weight": 400, "style": "normal"},
+        {"path": "fonts/FolioSans-Semibold.woff2", "weight": 600, "style": "normal"}
+      ]
+    }
+  },
+  "radius": "6px",
+  "logo": {"path": "logo.svg", "alt": "Acme Example Co.", "usage": "prepared-for only"},
+  "twc_signature": "Prepared by The Warm Channel"
+}
