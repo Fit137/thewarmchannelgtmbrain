@@ -32,6 +32,12 @@ Default disposition is NOISE. A brain that amends on every input has no memory. 
 
 ## Entries
 
+### 2026-10-22 | CHANNEL | Founder, outreach result and a new angle under test
+**Verbatim:** "I reach out initially for companies that are not hosting to make them host, and I see a poor reply rate. Instead, I want to reach out to companies who already use events as a channel." Also: "Override the brain strategy for now. This is a new angle that I'm testing."
+**Context:** A founder test, not a decision. The angle targets event organisers and companies that already run ticketed, sponsored events, offering a faster route to paying attendees, sponsors, exhibitors and speakers. It conflicts with the 2026-09-22 positioning (the client is a vendor that hosts, and the guest pays nothing) and with the competitor map, where hosted-buyer and summit operators sit. The reply rate was reported without send counts, so it has no denominator yet. The target list for the test was researched outside this repository and holds no personal data here.
+**Disposition:** WATCH (1/1), channel performance, read after a full measurement cycle with sends and replies counted. Adopting the angle needs the full amendment procedure, starting with a decision brief. Not DECIDED.
+**Routed to:** none yet.
+
 ### 2026-10-08 | STATUS | Founder, a second gift for leads
 **Verbatim:** "Show-week brief let's do this one."
 **Context:** Chosen from a shortlist of lighter value-first gifts: one page about the week of a show the prospect already funds. Sized for a short runway or a HOLD, where the full strategy does not fit.
